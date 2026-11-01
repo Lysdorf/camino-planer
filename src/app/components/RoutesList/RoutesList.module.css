@@ -1,0 +1,13 @@
+.routesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 24px 0;
+}
+
+@media (max-width: 700px) {
+    .routesGrid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}

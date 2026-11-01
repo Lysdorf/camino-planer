@@ -1,0 +1,80 @@
+.tabsSticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border);
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 12px;
+    background: transparent;
+    color: var(--muted);
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tabIcon {
+    font-size: 18px;
+}
+
+.tabCount {
+    color: inherit;
+}
+
+.activeTab {
+    background-color: var(--primary);
+    color: white;
+}
+
+.tab:hover:not(.activeTab) {
+    background-color: #eeeae1;
+    color: var(--primary);
+}
+
+@media (max-width: 700px) {
+    .tabs {
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 4px;
+        padding: 10px 0;
+        overscroll-behavior-x: contain;
+    }
+
+    .tab {
+        flex-shrink: 0;
+        padding: 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 380px) {
+    .tabs {
+        gap: 2px;
+        padding: 8px 0;
+    }
+
+    .tab {
+        padding: 10px 4px;
+        font-size: 12px;
+    }
+}

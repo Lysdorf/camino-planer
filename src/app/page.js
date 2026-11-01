@@ -1,69 +1,97 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import { routes, tabs } from "./data/data";
 import styles from "./page.module.css";
+import Header from "./components/Header/Header";
+import RouteOverview from "./components/RouteOverview/RouteOverview";
+import Tabs from "./components/Tabs/Tabs";
+import StagesList from "./components/StagesList/StagesList";
+import RoutesList from "./components/RoutesList/RoutesList";
 
 export default function Home() {
+  const [selectedRoute, setSelectedRoute] = useState(routes[0].routeName);
+  const [completedStages, setCompletedStages] = useState([]);
+  const [activeTab, setActiveTab] = useState("routes");
+
+  function handleSelectRoute(routeName) { 
+    setSelectedRoute(routeName);
+  }
+
+  function handleToggleStage(stageId) {
+    setCompletedStages(currentStages =>
+      currentStages.includes(stageId)
+        ? currentStages.filter(stage => stage !== stageId)
+        : [...currentStages, stageId]
+    );
+  }
+
+  const selectedRouteData = routes.find(route => route.routeName === selectedRoute);
+  const selectedStages = selectedRouteData?.stages ?? [];
+  const averageDistance = selectedRouteData && selectedRouteData.days > 0
+    ? selectedRouteData.distance / selectedRouteData.days
+    : 0;
+  const roundedAverageDistance = Math.round(averageDistance * 10) / 10;
+  const completedStagesCount = selectedStages.filter(stage =>
+    completedStages.includes(stage.id)
+  ).length;
+  const completedDistance = selectedStages.reduce((accumulator, stage) => {
+    return completedStages.includes(stage.id)
+      ? accumulator + stage.distance 
+      : accumulator
+  }, 0);
+  const progressPercentage = selectedRouteData?.distance > 0
+    ? Math.round(completedDistance / selectedRouteData.distance * 1000) / 10
+    : 0;
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <>
+      <Header title="Camino Planner" />
+      
+      <main className={styles.page}>
+        {selectedRouteData ?
+          (
+            <RouteOverview route={selectedRouteData} averageDistance={roundedAverageDistance} />
+          )
+          : (
+            <p>Choose your route</p>
+          )
+        }
+
+        <Tabs
+          tabs={tabs}
+          activeTab={activeTab}
+          onTabChange={setActiveTab}
+          selectedRoute={selectedRouteData}
         />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.js</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+        <div className={styles.tabContent}>
+          {activeTab === "routes" && (
+            <RoutesList
+              routes={routes}
+              selectedRoute={selectedRoute}
+              onSelectRoute={handleSelectRoute}
             />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          )}
+
+          {activeTab === "stages" && (
+            selectedRouteData ? (
+              <StagesList
+                stages={selectedStages}
+                progressPercentage={progressPercentage}
+                completedDistance={completedDistance}
+                totalDistance={selectedRouteData.distance}
+                completedStagesCount={completedStagesCount}
+                totalDays={selectedRouteData.days}
+                completedStages={completedStages}
+                onToggleStage={handleToggleStage}
+              />
+            ) : (
+              <p>Выбери маршрут, чтобы увидеть этапы</p>
+            )
+          )}
         </div>
+        
       </main>
-    </div>
+    </>
   );
 }

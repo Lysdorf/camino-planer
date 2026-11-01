@@ -1,0 +1,107 @@
+.header {
+    width: 100%;
+    background-color: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 32px;
+}
+
+.headerContent {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+    background-color: var(--primary);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    font-size: 25px;
+}
+
+.brandText h1 {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brandText p {
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.headerActions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.printButton,
+.exportButton {
+    padding: 10px 16px;
+    border-radius: 9px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.printButton {
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--border);
+}
+
+.exportButton {
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+}
+
+.printButton:hover {
+    background-color: var(--background);
+}
+
+.exportButton:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+    .header {
+        padding: 14px 16px;
+    }
+
+    .headerContent {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .brandText h1 {
+        font-size: 18px;
+    }
+
+    .headerActions {
+        width: 100%;
+    }
+
+    .printButton,
+    .exportButton {
+        flex: 1;
+        padding: 10px 8px;
+        font-size: 12px;
+    }
+}
