@@ -6,9 +6,23 @@
 }
 
 .stageCard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+
     background-color: #fff;
     padding: 16px;
+    border: 1px solid transparent;
     border-radius: 10px;
+
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease,
+                border-color 0.2s ease;
 }
 
 .stageHeader {
@@ -49,7 +63,7 @@
     margin-bottom: 20px;
 }
 
-.stagesProgress>p {
+.stagesProgress > p {
     color: var(--muted);
     font-size: 13px;
     margin-top: 8px;
@@ -80,26 +94,117 @@
     transition: width 0.4s ease;
 }
 
-.stageCard.completed {
-    background-color: #f0f5ef;
-    border: 1px solid var(--primary);
+/* Населённые пункты */
+
+.stageLocations {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--text);
+    font-size: 15px;
 }
 
-.stageCard label {
+/* Показатели высоты */
+
+.stageDetails {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+
+    padding-top: 12px;
+    border-top: 1px solid var(--border);
+
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.elevationItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.elevationItem strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.detailIcon {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Оценка нагрузки */
+
+.loadItem {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 14px;
-    color: var(--muted);
-    cursor: pointer;
+    margin-left: auto;
 }
 
-.stageCard input[type="checkbox"] {
-    width: 18px;
-    height: 18px;
-    accent-color: var(--primary);
-    cursor: pointer;
+.loadEasy,
+.loadModerate,
+.loadHard {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 9px;
+    border-radius: 20px;
 }
+
+.loadEasy {
+    color: #34734a;
+    background-color: #e8f3e9;
+}
+
+.loadModerate {
+    color: #986b19;
+    background-color: #fff3d9;
+}
+
+.loadHard {
+    color: #a34436;
+    background-color: #fbe9e6;
+}
+
+/* Состояния карточек */
+
+.stageCard.completed {
+    background-color: #f0f5ef;
+    border-color: var(--primary);
+}
+
+.stageCard:hover {
+    border-color: var(--accent);
+}
+
+.stageCard:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--muted);
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.checkbox.checked {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Адаптация */
 
 @media (max-width: 700px) {
     .stageCard {
@@ -108,7 +213,6 @@
 
     .stageHeader {
         gap: 12px;
-        flex-wrap: wrap;
     }
 
     .stageTitle {
@@ -117,6 +221,10 @@
 
     .stageDistance {
         font-size: 14px;
+    }
+
+    .stageDetails {
+        gap: 10px 16px;
     }
 }
 
@@ -135,5 +243,14 @@
 
     .stageDistance {
         font-size: 13px;
+    }
+
+    .stageDetails {
+        gap: 10px;
+    }
+
+    .loadItem {
+        margin-left: 0;
+        width: 100%;
     }
 }

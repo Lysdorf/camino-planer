@@ -1,0 +1,3711 @@
+{
+  "id": "camino-frances",
+  "name": "Camino Francés",
+  "source": {
+    "name": "Open Pilgrimages",
+    "version": "v1.12.0",
+    "originalSource": "OpenStreetMap",
+    "license": "ODbL",
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "distance": 763.7,
+  "elevationGainMeters": 11024,
+  "elevationLossMeters": 10680,
+  "stageCount": 33,
+  "townCount": 36,
+  "segmentCount": 35,
+  "segments": [
+    {
+      "id": "frances-wp-sjpp-wp-roncesvalles",
+      "from": "Saint-Jean-Pied-de-Port",
+      "to": "Roncesvalles",
+      "fromTown": {
+        "id": "wp-sjpp",
+        "name": "Saint-Jean-Pied-de-Port",
+        "type": "town",
+        "distanceFromStart": 0,
+        "coordinates": [
+          -1.236,
+          43.163,
+          172
+        ],
+        "tags": [
+          "start",
+          "credential"
+        ]
+      },
+      "toTown": {
+        "id": "wp-roncesvalles",
+        "name": "Roncesvalles",
+        "type": "town",
+        "distanceFromStart": 24.2,
+        "coordinates": [
+          -1.319,
+          43.01,
+          945
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 24.2,
+      "startKm": 0,
+      "endKm": 24.2,
+      "startCoordinates": [
+        -1.236,
+        43.163,
+        172
+      ],
+      "endCoordinates": [
+        -1.319,
+        43.01,
+        945
+      ],
+      "sourceStageIndex": 0,
+      "sourceStageName": "Saint-Jean-Pied-de-Port to Roncesvalles",
+      "elevationGainMeters": 1419,
+      "elevationLossMeters": 557,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2418174011",
+          "name": "Gite Kayola",
+          "distanceFromStart": 6.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.2381426,
+            43.1178237
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node9572026791",
+          "name": "Auberge Borda",
+          "distanceFromStart": 8.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.238859,
+            43.101402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-roncesvalles-wp-zubiri",
+      "from": "Roncesvalles",
+      "to": "Zubiri",
+      "fromTown": {
+        "id": "wp-roncesvalles",
+        "name": "Roncesvalles",
+        "type": "town",
+        "distanceFromStart": 24.2,
+        "coordinates": [
+          -1.319,
+          43.01,
+          945
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-zubiri",
+        "name": "Zubiri",
+        "type": "town",
+        "distanceFromStart": 45.5,
+        "coordinates": [
+          -1.504,
+          42.931,
+          530
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 21.3,
+      "startKm": 24.2,
+      "endKm": 45.5,
+      "startCoordinates": [
+        -1.319,
+        43.01,
+        945
+      ],
+      "endCoordinates": [
+        -1.504,
+        42.931,
+        530
+      ],
+      "sourceStageIndex": 1,
+      "sourceStageName": "Roncesvalles to Zubiri",
+      "elevationGainMeters": 308.6,
+      "elevationLossMeters": 728.6,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node7117871641",
+          "name": "Lastur",
+          "distanceFromStart": 9.8,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4161916,
+            42.9693375
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node7117871643",
+          "name": "Batit",
+          "distanceFromStart": 9.9,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4170017,
+            42.9690038
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203680",
+          "name": "Corazón Puro",
+          "distanceFromStart": 10.1,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4169256,
+            42.9682126
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node7117884946",
+          "name": "Primorena Txiki",
+          "distanceFromStart": 12,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4366519,
+            42.9627587
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node5131166542",
+          "name": "El Camino",
+          "distanceFromStart": 12.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.4378841,
+            42.9622064
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node7117871662",
+          "name": "Ekain",
+          "distanceFromStart": 12.3,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4382852,
+            42.9609871
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node7117884945",
+          "name": "Motxaña II",
+          "distanceFromStart": 12.3,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.4376516,
+            42.9611533
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-zubiri-wp-pamplona",
+      "from": "Zubiri",
+      "to": "Pamplona",
+      "fromTown": {
+        "id": "wp-zubiri",
+        "name": "Zubiri",
+        "type": "town",
+        "distanceFromStart": 45.5,
+        "coordinates": [
+          -1.504,
+          42.931,
+          530
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-pamplona",
+        "name": "Pamplona",
+        "type": "town",
+        "distanceFromStart": 66,
+        "coordinates": [
+          -1.644,
+          42.818,
+          435
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "distance": 20.5,
+      "startKm": 45.5,
+      "endKm": 66,
+      "startCoordinates": [
+        -1.504,
+        42.931,
+        530
+      ],
+      "endCoordinates": [
+        -1.644,
+        42.818,
+        435
+      ],
+      "sourceStageIndex": 2,
+      "sourceStageName": "Zubiri to Pamplona",
+      "elevationGainMeters": 315.4,
+      "elevationLossMeters": 234.4,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2428203679",
+          "name": "El Camino",
+          "distanceFromStart": 5.2,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -1.5443001,
+            42.900404
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4883332764",
+          "name": "Hotel Akerreta",
+          "distanceFromStart": 5.8,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -1.5436042,
+            42.896702
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2427864378",
+          "name": "Albergue Parroquial de Zabaldika",
+          "distanceFromStart": 11.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.581468,
+            42.855967
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-pamplona-wp-puente-la-reina",
+      "from": "Pamplona",
+      "to": "Puente la Reina",
+      "fromTown": {
+        "id": "wp-pamplona",
+        "name": "Pamplona",
+        "type": "town",
+        "distanceFromStart": 66,
+        "coordinates": [
+          -1.644,
+          42.818,
+          435
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "toTown": {
+        "id": "wp-puente-la-reina",
+        "name": "Puente la Reina",
+        "type": "town",
+        "distanceFromStart": 89.9,
+        "coordinates": [
+          -1.813,
+          42.672,
+          350
+        ],
+        "tags": [
+          "town",
+          "bridge"
+        ]
+      },
+      "distance": 23.9,
+      "startKm": 66,
+      "endKm": 89.9,
+      "startCoordinates": [
+        -1.644,
+        42.818,
+        435
+      ],
+      "endCoordinates": [
+        -1.813,
+        42.672,
+        350
+      ],
+      "sourceStageIndex": 3,
+      "sourceStageName": "Pamplona to Puente la Reina",
+      "elevationGainMeters": 414,
+      "elevationLossMeters": 507,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1914162024",
+          "name": "Albergue de Zariquiegui",
+          "distanceFromStart": 9.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.722546,
+            42.7478057
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3814086082",
+          "name": "Albergue Casa Baztán",
+          "distanceFromStart": 17.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.7613952,
+            42.7082808
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-puente-la-reina-wp-estella",
+      "from": "Puente la Reina",
+      "to": "Estella",
+      "fromTown": {
+        "id": "wp-puente-la-reina",
+        "name": "Puente la Reina",
+        "type": "town",
+        "distanceFromStart": 89.9,
+        "coordinates": [
+          -1.813,
+          42.672,
+          350
+        ],
+        "tags": [
+          "town",
+          "bridge"
+        ]
+      },
+      "toTown": {
+        "id": "wp-estella",
+        "name": "Estella",
+        "type": "town",
+        "distanceFromStart": 111.5,
+        "coordinates": [
+          -2.031,
+          42.671,
+          430
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 21.6,
+      "startKm": 89.9,
+      "endKm": 111.5,
+      "startCoordinates": [
+        -1.813,
+        42.672,
+        350
+      ],
+      "endCoordinates": [
+        -2.031,
+        42.671,
+        430
+      ],
+      "sourceStageIndex": 4,
+      "sourceStageName": "Puente la Reina to Estella",
+      "elevationGainMeters": 399,
+      "elevationLossMeters": 326,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1336790955",
+          "name": "Albergue de Peregrinos Casa Maralotx",
+          "distanceFromStart": 7.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -1.8921412,
+            42.6758055
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-estella-wp-los-arcos",
+      "from": "Estella",
+      "to": "Los Arcos",
+      "fromTown": {
+        "id": "wp-estella",
+        "name": "Estella",
+        "type": "town",
+        "distanceFromStart": 111.5,
+        "coordinates": [
+          -2.031,
+          42.671,
+          430
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-los-arcos",
+        "name": "Los Arcos",
+        "type": "town",
+        "distanceFromStart": 132.8,
+        "coordinates": [
+          -2.192,
+          42.567,
+          450
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 21.3,
+      "startKm": 111.5,
+      "endKm": 132.8,
+      "startCoordinates": [
+        -2.031,
+        42.671,
+        430
+      ],
+      "endCoordinates": [
+        -2.192,
+        42.567,
+        450
+      ],
+      "sourceStageIndex": 5,
+      "sourceStageName": "Estella to Los Arcos",
+      "elevationGainMeters": 388,
+      "elevationLossMeters": 363,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node3720772625",
+          "name": "La Perla Negra",
+          "distanceFromStart": 8.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.0870075,
+            42.6351757
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1336972742",
+          "name": "Montedeio",
+          "distanceFromStart": 12,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -2.1057156,
+            42.6295605
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-los-arcos-wp-logrono",
+      "from": "Los Arcos",
+      "to": "Logroño",
+      "fromTown": {
+        "id": "wp-los-arcos",
+        "name": "Los Arcos",
+        "type": "town",
+        "distanceFromStart": 132.8,
+        "coordinates": [
+          -2.192,
+          42.567,
+          450
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-logrono",
+        "name": "Logroño",
+        "type": "town",
+        "distanceFromStart": 160.4,
+        "coordinates": [
+          -2.444,
+          42.469,
+          384
+        ],
+        "tags": [
+          "town",
+          "city",
+          "wine"
+        ]
+      },
+      "distance": 27.6,
+      "startKm": 132.8,
+      "endKm": 160.4,
+      "startCoordinates": [
+        -2.192,
+        42.567,
+        450
+      ],
+      "endCoordinates": [
+        -2.444,
+        42.469,
+        384
+      ],
+      "sourceStageIndex": 6,
+      "sourceStageName": "Los Arcos to Logroño",
+      "elevationGainMeters": 368,
+      "elevationLossMeters": 433,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2429922077",
+          "name": "Albergue Izar",
+          "distanceFromStart": 18.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.3684195,
+            42.5152277
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2429922087",
+          "name": "Albergue Parroquial de Viana",
+          "distanceFromStart": 18.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.3716272,
+            42.5154016
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2429922078",
+          "name": "Pensión San Pedro",
+          "distanceFromStart": 18.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.3724974,
+            42.5147156
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2429922076",
+          "name": "Alberguería Andrés Muñoz",
+          "distanceFromStart": 19.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.373391,
+            42.5144862
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-logrono-wp-najera",
+      "from": "Logroño",
+      "to": "Nájera",
+      "fromTown": {
+        "id": "wp-logrono",
+        "name": "Logroño",
+        "type": "town",
+        "distanceFromStart": 160.4,
+        "coordinates": [
+          -2.444,
+          42.469,
+          384
+        ],
+        "tags": [
+          "town",
+          "city",
+          "wine"
+        ]
+      },
+      "toTown": {
+        "id": "wp-najera",
+        "name": "Nájera",
+        "type": "town",
+        "distanceFromStart": 188.9,
+        "coordinates": [
+          -2.735,
+          42.416,
+          485
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 28.5,
+      "startKm": 160.4,
+      "endKm": 188.9,
+      "startCoordinates": [
+        -2.444,
+        42.469,
+        384
+      ],
+      "endCoordinates": [
+        -2.735,
+        42.416,
+        485
+      ],
+      "sourceStageIndex": 7,
+      "sourceStageName": "Logroño to Nájera",
+      "elevationGainMeters": 366,
+      "elevationLossMeters": 258,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node4985655754",
+          "name": "Albergue El Camino de las Estrellas",
+          "distanceFromStart": 14.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.558334,
+            42.431835
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203770",
+          "name": "Albergue la Casa del Peregrino Ángel",
+          "distanceFromStart": 14.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.559536,
+            42.43123
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node13371538294",
+          "name": "Casa Rural Saleros",
+          "distanceFromStart": 14.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5569955,
+            42.4285043
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1340275599",
+          "name": "Albergue Municipal de Navarrete",
+          "distanceFromStart": 14.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5604593,
+            42.4292403
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203691",
+          "name": "Albergue Buen Camino",
+          "distanceFromStart": 14.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5613813,
+            42.4290333
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203690",
+          "name": "Albergue Pilgrim's",
+          "distanceFromStart": 15,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5629263,
+            42.4292115
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1340275847",
+          "name": "El Cantaro",
+          "distanceFromStart": 15.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5639108,
+            42.4304172
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3066849683",
+          "name": "Albergue a La sombra del Laurel",
+          "distanceFromStart": 15.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.5689954,
+            42.4298342
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-najera-wp-santo-domingo",
+      "from": "Nájera",
+      "to": "Santo Domingo de la Calzada",
+      "fromTown": {
+        "id": "wp-najera",
+        "name": "Nájera",
+        "type": "town",
+        "distanceFromStart": 188.9,
+        "coordinates": [
+          -2.735,
+          42.416,
+          485
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-santo-domingo",
+        "name": "Santo Domingo de la Calzada",
+        "type": "town",
+        "distanceFromStart": 210.8,
+        "coordinates": [
+          -2.954,
+          42.441,
+          640
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 21.9,
+      "startKm": 188.9,
+      "endKm": 210.8,
+      "startCoordinates": [
+        -2.735,
+        42.416,
+        485
+      ],
+      "endCoordinates": [
+        -2.954,
+        42.441,
+        640
+      ],
+      "sourceStageIndex": 8,
+      "sourceStageName": "Nájera to Santo Domingo de la Calzada",
+      "elevationGainMeters": 344.9,
+      "elevationLossMeters": 189.7,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1055210608",
+          "name": "Albergue Parroquial Herbert Simon",
+          "distanceFromStart": 7.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.8008029,
+            42.4232639
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1340449101",
+          "name": "Hotel Real Casona de las Amas",
+          "distanceFromStart": 7.4,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -2.8016764,
+            42.4245846
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2439145886",
+          "name": "Albergue Virgen de Guadalupe",
+          "distanceFromStart": 15,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.8944185,
+            42.4127185
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3066884279",
+          "name": "Albergue Turístico Victoria",
+          "distanceFromStart": 15.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -2.8944595,
+            42.4102214
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203746",
+          "name": "Pensión Casa Victoria",
+          "distanceFromStart": 15.3,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -2.8960254,
+            42.410097
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-santo-domingo-wp-belorado",
+      "from": "Santo Domingo de la Calzada",
+      "to": "Belorado",
+      "fromTown": {
+        "id": "wp-santo-domingo",
+        "name": "Santo Domingo de la Calzada",
+        "type": "town",
+        "distanceFromStart": 210.8,
+        "coordinates": [
+          -2.954,
+          42.441,
+          640
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-belorado",
+        "name": "Belorado",
+        "type": "town",
+        "distanceFromStart": 231.6,
+        "coordinates": [
+          -3.19,
+          42.42,
+          770
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 20.8,
+      "startKm": 210.8,
+      "endKm": 231.6,
+      "startCoordinates": [
+        -2.954,
+        42.441,
+        640
+      ],
+      "endCoordinates": [
+        -3.19,
+        42.42,
+        770
+      ],
+      "sourceStageIndex": 9,
+      "sourceStageName": "Santo Domingo de la Calzada to Belorado",
+      "elevationGainMeters": 310.1,
+      "elevationLossMeters": 185.3,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node9180204923",
+          "name": "Albergue Bideluze",
+          "distanceFromStart": 9.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.0829546,
+            42.4369298
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1069467864",
+          "name": "Hostal El Chocolatero",
+          "distanceFromStart": 9.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.0840042,
+            42.4384238
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3174034161",
+          "name": "Albergue Parada Viloria",
+          "distanceFromStart": 12.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.0996022,
+            42.4271842
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1497909986",
+          "name": "Refugio de peregrinos Acacio y Orietta",
+          "distanceFromStart": 12.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.1002799,
+            42.4264167
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-belorado-wp-san-juan-ortega",
+      "from": "Belorado",
+      "to": "San Juan de Ortega",
+      "fromTown": {
+        "id": "wp-belorado",
+        "name": "Belorado",
+        "type": "town",
+        "distanceFromStart": 231.6,
+        "coordinates": [
+          -3.19,
+          42.42,
+          770
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-san-juan-ortega",
+        "name": "San Juan de Ortega",
+        "type": "town",
+        "distanceFromStart": 255.5,
+        "coordinates": [
+          -3.437,
+          42.373,
+          1000
+        ],
+        "tags": [
+          "town",
+          "monastery"
+        ]
+      },
+      "distance": 23.9,
+      "startKm": 231.6,
+      "endKm": 255.5,
+      "startCoordinates": [
+        -3.19,
+        42.42,
+        770
+      ],
+      "endCoordinates": [
+        -3.437,
+        42.373,
+        1000
+      ],
+      "sourceStageIndex": 10,
+      "sourceStageName": "Belorado to San Juan de Ortega",
+      "elevationGainMeters": 430,
+      "elevationLossMeters": 193,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1497910002",
+          "name": "Hospital de Peregrinos Tosantos",
+          "distanceFromStart": 5.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.2424714,
+            42.4138042
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3730956109",
+          "name": "Albergue-Bar Los Arancones",
+          "distanceFromStart": 5.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.242477,
+            42.4145424
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2428203683",
+          "name": "Albergue Municipal de San Roque",
+          "distanceFromStart": 6.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.2619316,
+            42.406231
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4574684014",
+          "name": "Albergue Espinosa del Camino",
+          "distanceFromStart": 8.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.2794982,
+            42.4055482
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505248433",
+          "name": "Albergue La Campana",
+          "distanceFromStart": 8.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.2821377,
+            42.4059085
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1051565670",
+          "name": "El Pájaro",
+          "distanceFromStart": 12.8,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -3.3080756,
+            42.3902348
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1797207949",
+          "name": "San Antón Abad",
+          "distanceFromStart": 13.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.309631,
+            42.3884358
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-san-juan-ortega-wp-burgos",
+      "from": "San Juan de Ortega",
+      "to": "Burgos",
+      "fromTown": {
+        "id": "wp-san-juan-ortega",
+        "name": "San Juan de Ortega",
+        "type": "town",
+        "distanceFromStart": 255.5,
+        "coordinates": [
+          -3.437,
+          42.373,
+          1000
+        ],
+        "tags": [
+          "town",
+          "monastery"
+        ]
+      },
+      "toTown": {
+        "id": "wp-burgos",
+        "name": "Burgos",
+        "type": "town",
+        "distanceFromStart": 281.3,
+        "coordinates": [
+          -3.7,
+          42.344,
+          860
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "distance": 25.8,
+      "startKm": 255.5,
+      "endKm": 281.3,
+      "startCoordinates": [
+        -3.437,
+        42.373,
+        1000
+      ],
+      "endCoordinates": [
+        -3.7,
+        42.344,
+        860
+      ],
+      "sourceStageIndex": 11,
+      "sourceStageName": "San Juan de Ortega to Burgos",
+      "elevationGainMeters": 141,
+      "elevationLossMeters": 278,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node5157750927",
+          "name": "Casa rural",
+          "distanceFromStart": 8,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -3.5519249,
+            42.3690373
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2574608090",
+          "name": "Albergue Vía Minera",
+          "distanceFromStart": 9.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.5596952,
+            42.3600008
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3068344648",
+          "name": "Albergue Santa Fe",
+          "distanceFromStart": 9.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.5594294,
+            42.3588759
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1502257334",
+          "name": "Casa Rural La Cardeñuela",
+          "distanceFromStart": 9.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.5624271,
+            42.3590108
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1502257364",
+          "name": "Albergue Municipal El Peregrino",
+          "distanceFromStart": 11.6,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -3.5847391,
+            42.3602378
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node954713834",
+          "name": "Hostal Iruñako",
+          "distanceFromStart": 15.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.6227046,
+            42.3646498
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node954713842",
+          "name": "Buenos Aires",
+          "distanceFromStart": 15.5,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -3.6220301,
+            42.364862
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node954713833",
+          "name": "Las Vegas",
+          "distanceFromStart": 15.9,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -3.6274692,
+            42.3636913
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1028028793",
+          "name": "Hotel Puerto Seco",
+          "distanceFromStart": 16.2,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -3.6292772,
+            42.3613838
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node651008311",
+          "name": "Acanto",
+          "distanceFromStart": 20,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.663965,
+            42.3553824
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node656741327",
+          "name": "Hostal Arlanzón",
+          "distanceFromStart": 20,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.6641245,
+            42.3545243
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-burgos-wp-hornillos",
+      "from": "Burgos",
+      "to": "Hornillos del Camino",
+      "fromTown": {
+        "id": "wp-burgos",
+        "name": "Burgos",
+        "type": "town",
+        "distanceFromStart": 281.3,
+        "coordinates": [
+          -3.7,
+          42.344,
+          860
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "toTown": {
+        "id": "wp-hornillos",
+        "name": "Hornillos del Camino",
+        "type": "town",
+        "distanceFromStart": 301.6,
+        "coordinates": [
+          -3.912,
+          42.337,
+          810
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 20.3,
+      "startKm": 281.3,
+      "endKm": 301.6,
+      "startCoordinates": [
+        -3.7,
+        42.344,
+        860
+      ],
+      "endCoordinates": [
+        -3.912,
+        42.337,
+        810
+      ],
+      "sourceStageIndex": 12,
+      "sourceStageName": "Burgos to Hornillos del Camino",
+      "elevationGainMeters": 103,
+      "elevationLossMeters": 148,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node3068460490",
+          "name": "Albergue La Fábrica",
+          "distanceFromStart": 12.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.8100222,
+            42.3449973
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505353204",
+          "name": "Albergue de peregrinos Municipal de Tardajos",
+          "distanceFromStart": 13.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -3.8169969,
+            42.3481578
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-hornillos-wp-castrojeriz",
+      "from": "Hornillos del Camino",
+      "to": "Castrojeriz",
+      "fromTown": {
+        "id": "wp-hornillos",
+        "name": "Hornillos del Camino",
+        "type": "town",
+        "distanceFromStart": 301.6,
+        "coordinates": [
+          -3.912,
+          42.337,
+          810
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-castrojeriz",
+        "name": "Castrojeriz",
+        "type": "town",
+        "distanceFromStart": 321.5,
+        "coordinates": [
+          -4.14,
+          42.289,
+          800
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 19.9,
+      "startKm": 301.6,
+      "endKm": 321.5,
+      "startCoordinates": [
+        -3.912,
+        42.337,
+        810
+      ],
+      "endCoordinates": [
+        -4.14,
+        42.289,
+        800
+      ],
+      "sourceStageIndex": 13,
+      "sourceStageName": "Hornillos del Camino to Castrojeriz",
+      "elevationGainMeters": 174,
+      "elevationLossMeters": 188,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1505702527",
+          "name": "Albergue Juan de Yepes",
+          "distanceFromStart": 9.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.0430647,
+            42.3126565
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node536544907",
+          "name": "Mesón Albergue El Puntido",
+          "distanceFromStart": 9.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.0440902,
+            42.3127871
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node536544916",
+          "name": "Albergue Municipal de Hontanas",
+          "distanceFromStart": 9.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.0448618,
+            42.312729
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-castrojeriz-wp-fromista",
+      "from": "Castrojeriz",
+      "to": "Frómista",
+      "fromTown": {
+        "id": "wp-castrojeriz",
+        "name": "Castrojeriz",
+        "type": "town",
+        "distanceFromStart": 321.5,
+        "coordinates": [
+          -4.14,
+          42.289,
+          800
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-fromista",
+        "name": "Frómista",
+        "type": "town",
+        "distanceFromStart": 346.2,
+        "coordinates": [
+          -4.406,
+          42.268,
+          780
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 24.7,
+      "startKm": 321.5,
+      "endKm": 346.2,
+      "startCoordinates": [
+        -4.14,
+        42.289,
+        800
+      ],
+      "endCoordinates": [
+        -4.406,
+        42.268,
+        780
+      ],
+      "sourceStageIndex": 14,
+      "sourceStageName": "Castrojeriz to Frómista",
+      "elevationGainMeters": 201,
+      "elevationLossMeters": 233,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node775713238",
+          "name": "San Nicolas de Puentefitero Hospital de Peregrinos",
+          "distanceFromStart": 12.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.2433031,
+            42.2789274
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node536615085",
+          "name": "Hostal Puente Fitero",
+          "distanceFromStart": 14.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.2557293,
+            42.2865668
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505776237",
+          "name": "Albergue Municipal de Itero de la Vega",
+          "distanceFromStart": 15,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.2586834,
+            42.2869051
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2453317949",
+          "name": "Albergue La Mochila",
+          "distanceFromStart": 15,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.2581663,
+            42.2873428
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505776239",
+          "name": "Albergue Putzu",
+          "distanceFromStart": 19.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.3445784,
+            42.2610632
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-fromista-wp-carrion",
+      "from": "Frómista",
+      "to": "Carrión de los Condes",
+      "fromTown": {
+        "id": "wp-fromista",
+        "name": "Frómista",
+        "type": "town",
+        "distanceFromStart": 346.2,
+        "coordinates": [
+          -4.406,
+          42.268,
+          780
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-carrion",
+        "name": "Carrión de los Condes",
+        "type": "town",
+        "distanceFromStart": 365,
+        "coordinates": [
+          -4.602,
+          42.338,
+          830
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 18.8,
+      "startKm": 346.2,
+      "endKm": 365,
+      "startCoordinates": [
+        -4.406,
+        42.268,
+        780
+      ],
+      "endCoordinates": [
+        -4.602,
+        42.338,
+        830
+      ],
+      "sourceStageIndex": 15,
+      "sourceStageName": "Frómista to Carrión de los Condes",
+      "elevationGainMeters": 73,
+      "elevationLossMeters": 29,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node4575982361",
+          "name": "Albergue La Finca",
+          "distanceFromStart": 5.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.4405008,
+            42.268155
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505776240",
+          "name": "Albergue Municipal de Población de Campos",
+          "distanceFromStart": 5.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.444886,
+            42.2690748
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1505776251",
+          "name": "Hostal Amanecer en Campos",
+          "distanceFromStart": 6,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -4.4455075,
+            42.2686937
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1506280664",
+          "name": "Albergue Amanecer",
+          "distanceFromStart": 11.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.4987214,
+            42.297744
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-carrion-wp-terradillos",
+      "from": "Carrión de los Condes",
+      "to": "Terradillos de los Templarios",
+      "fromTown": {
+        "id": "wp-carrion",
+        "name": "Carrión de los Condes",
+        "type": "town",
+        "distanceFromStart": 365,
+        "coordinates": [
+          -4.602,
+          42.338,
+          830
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-terradillos",
+        "name": "Terradillos de los Templarios",
+        "type": "town",
+        "distanceFromStart": 393.3,
+        "coordinates": [
+          -4.891,
+          42.363,
+          880
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 28.3,
+      "startKm": 365,
+      "endKm": 393.3,
+      "startCoordinates": [
+        -4.602,
+        42.338,
+        830
+      ],
+      "endCoordinates": [
+        -4.891,
+        42.363,
+        880
+      ],
+      "sourceStageIndex": 16,
+      "sourceStageName": "Carrión de los Condes to Terradillos de los Templarios",
+      "elevationGainMeters": 115.3,
+      "elevationLossMeters": 64.3,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1506398155",
+          "name": "Albergue Camino Real",
+          "distanceFromStart": 17.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -4.8024968,
+            42.3288795
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1506398164",
+          "name": "Hostal Camino Real",
+          "distanceFromStart": 17.8,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -4.8044994,
+            42.3285291
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-terradillos-wp-sahagun",
+      "from": "Terradillos de los Templarios",
+      "to": "Sahagún",
+      "fromTown": {
+        "id": "wp-terradillos",
+        "name": "Terradillos de los Templarios",
+        "type": "town",
+        "distanceFromStart": 393.3,
+        "coordinates": [
+          -4.891,
+          42.363,
+          880
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-sahagun",
+        "name": "Sahagún",
+        "type": "town",
+        "distanceFromStart": 404,
+        "coordinates": [
+          -5.033,
+          42.372,
+          860
+        ],
+        "tags": [
+          "town",
+          "midpoint",
+          "mudejar"
+        ]
+      },
+      "distance": 10.7,
+      "startKm": 393.3,
+      "endKm": 404,
+      "startCoordinates": [
+        -4.891,
+        42.363,
+        880
+      ],
+      "endCoordinates": [
+        -5.033,
+        42.372,
+        860
+      ],
+      "sourceStageIndex": 17,
+      "sourceStageName": "Terradillos de los Templarios to Bercianos del Real Camino",
+      "elevationGainMeters": 54.9,
+      "elevationLossMeters": 71,
+      "intermediateStops": []
+    },
+    {
+      "id": "frances-wp-sahagun-wp-bercianos",
+      "from": "Sahagún",
+      "to": "Bercianos del Real Camino",
+      "fromTown": {
+        "id": "wp-sahagun",
+        "name": "Sahagún",
+        "type": "town",
+        "distanceFromStart": 404,
+        "coordinates": [
+          -5.033,
+          42.372,
+          860
+        ],
+        "tags": [
+          "town",
+          "midpoint",
+          "mudejar"
+        ]
+      },
+      "toTown": {
+        "id": "wp-bercianos",
+        "name": "Bercianos del Real Camino",
+        "type": "town",
+        "distanceFromStart": 417.1,
+        "coordinates": [
+          -5.145,
+          42.388,
+          850
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "distance": 13.1,
+      "startKm": 404,
+      "endKm": 417.1,
+      "startCoordinates": [
+        -5.033,
+        42.372,
+        860
+      ],
+      "endCoordinates": [
+        -5.145,
+        42.388,
+        850
+      ],
+      "sourceStageIndex": 17,
+      "sourceStageName": "Terradillos de los Templarios to Bercianos del Real Camino",
+      "elevationGainMeters": 56.9,
+      "elevationLossMeters": 77.8,
+      "intermediateStops": []
+    },
+    {
+      "id": "frances-wp-bercianos-wp-mansilla",
+      "from": "Bercianos del Real Camino",
+      "to": "Mansilla de las Mulas",
+      "fromTown": {
+        "id": "wp-bercianos",
+        "name": "Bercianos del Real Camino",
+        "type": "town",
+        "distanceFromStart": 417.1,
+        "coordinates": [
+          -5.145,
+          42.388,
+          850
+        ],
+        "tags": [
+          "town",
+          "meseta"
+        ]
+      },
+      "toTown": {
+        "id": "wp-mansilla",
+        "name": "Mansilla de las Mulas",
+        "type": "town",
+        "distanceFromStart": 440.8,
+        "coordinates": [
+          -5.415,
+          42.498,
+          800
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 23.7,
+      "startKm": 417.1,
+      "endKm": 440.8,
+      "startCoordinates": [
+        -5.145,
+        42.388,
+        850
+      ],
+      "endCoordinates": [
+        -5.415,
+        42.498,
+        800
+      ],
+      "sourceStageIndex": 18,
+      "sourceStageName": "Bercianos del Real Camino to Mansilla de las Mulas",
+      "elevationGainMeters": 27.9,
+      "elevationLossMeters": 73.9,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node840002601",
+          "name": "Vive Tu Camino",
+          "distanceFromStart": 14.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.353194,
+            42.4724628
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3761057961",
+          "name": "El Albergue de Ada",
+          "distanceFromStart": 14.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.354188,
+            42.4730436
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node839999819",
+          "name": "Albergue de Peregrinos La Parada",
+          "distanceFromStart": 15.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.3537841,
+            42.4750109
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-mansilla-wp-leon",
+      "from": "Mansilla de las Mulas",
+      "to": "León",
+      "fromTown": {
+        "id": "wp-mansilla",
+        "name": "Mansilla de las Mulas",
+        "type": "town",
+        "distanceFromStart": 440.8,
+        "coordinates": [
+          -5.415,
+          42.498,
+          800
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-leon",
+        "name": "León",
+        "type": "town",
+        "distanceFromStart": 459.2,
+        "coordinates": [
+          -5.568,
+          42.595,
+          837
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "distance": 18.4,
+      "startKm": 440.8,
+      "endKm": 459.2,
+      "startCoordinates": [
+        -5.415,
+        42.498,
+        800
+      ],
+      "endCoordinates": [
+        -5.568,
+        42.595,
+        837
+      ],
+      "sourceStageIndex": 19,
+      "sourceStageName": "Mansilla de las Mulas to León",
+      "elevationGainMeters": 107,
+      "elevationLossMeters": 73,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2083376215",
+          "name": "Albergue San Pelayo",
+          "distanceFromStart": 5.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.4568502,
+            42.5454249
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2456990151",
+          "name": "Albergue La Torre",
+          "distanceFromStart": 9.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.4972291,
+            42.566402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-leon-wp-san-martin",
+      "from": "León",
+      "to": "San Martín del Camino",
+      "fromTown": {
+        "id": "wp-leon",
+        "name": "León",
+        "type": "town",
+        "distanceFromStart": 459.2,
+        "coordinates": [
+          -5.568,
+          42.595,
+          837
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "toTown": {
+        "id": "wp-san-martin",
+        "name": "San Martín del Camino",
+        "type": "town",
+        "distanceFromStart": 487.1,
+        "coordinates": [
+          -5.809,
+          42.495,
+          867
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 27.9,
+      "startKm": 459.2,
+      "endKm": 487.1,
+      "startCoordinates": [
+        -5.568,
+        42.595,
+        837
+      ],
+      "endCoordinates": [
+        -5.809,
+        42.495,
+        867
+      ],
+      "sourceStageIndex": 20,
+      "sourceStageName": "León to San Martín del Camino",
+      "elevationGainMeters": 157.5,
+      "elevationLossMeters": 122.2,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node13551458760",
+          "name": "Hostal leon",
+          "distanceFromStart": 7.8,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -5.6092728,
+            42.5953659
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node6735387311",
+          "name": "Unnamed",
+          "distanceFromStart": 11.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.6400892,
+            42.5803669
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2462109669",
+          "name": "Albergue Don Antonino y Doña Cinia",
+          "distanceFromStart": 11.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.6393939,
+            42.5785058
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3561734809",
+          "name": "Hostal Plaza",
+          "distanceFromStart": 11.8,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -5.6420678,
+            42.5794834
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4784318606",
+          "name": "Albergue La Casa del Camino",
+          "distanceFromStart": 15.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.6780699,
+            42.5708663
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3561734817",
+          "name": "Hotel Avenida III",
+          "distanceFromStart": 19.5,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -5.7503675,
+            42.5285452
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3971290098",
+          "name": "Hostal Libertad",
+          "distanceFromStart": 20.9,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -5.7664284,
+            42.5169663
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460323078",
+          "name": "Albergue Santa Ana",
+          "distanceFromStart": 22.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.8063141,
+            42.4963239
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460330512",
+          "name": "Albergue Vieira",
+          "distanceFromStart": 22.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.8031861,
+            42.4979912
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460316546",
+          "name": "Albergue de San Martín del Camino",
+          "distanceFromStart": 22.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.8086576,
+            42.4951967
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4078536297",
+          "name": "Albergue la Casa Verde",
+          "distanceFromStart": 22.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -5.8098448,
+            42.4931385
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-san-martin-wp-astorga",
+      "from": "San Martín del Camino",
+      "to": "Astorga",
+      "fromTown": {
+        "id": "wp-san-martin",
+        "name": "San Martín del Camino",
+        "type": "town",
+        "distanceFromStart": 487.1,
+        "coordinates": [
+          -5.809,
+          42.495,
+          867
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-astorga",
+        "name": "Astorga",
+        "type": "town",
+        "distanceFromStart": 507.5,
+        "coordinates": [
+          -6.056,
+          42.456,
+          870
+        ],
+        "tags": [
+          "town",
+          "gaudi"
+        ]
+      },
+      "distance": 20.4,
+      "startKm": 487.1,
+      "endKm": 507.5,
+      "startCoordinates": [
+        -5.809,
+        42.495,
+        867
+      ],
+      "endCoordinates": [
+        -6.056,
+        42.456,
+        870
+      ],
+      "sourceStageIndex": 21,
+      "sourceStageName": "San Martín del Camino to Astorga",
+      "elevationGainMeters": 163.5,
+      "elevationLossMeters": 161.8,
+      "intermediateStops": []
+    },
+    {
+      "id": "frances-wp-astorga-wp-foncebadon",
+      "from": "Astorga",
+      "to": "Foncebadón",
+      "fromTown": {
+        "id": "wp-astorga",
+        "name": "Astorga",
+        "type": "town",
+        "distanceFromStart": 507.5,
+        "coordinates": [
+          -6.056,
+          42.456,
+          870
+        ],
+        "tags": [
+          "town",
+          "gaudi"
+        ]
+      },
+      "toTown": {
+        "id": "wp-foncebadon",
+        "name": "Foncebadón",
+        "type": "town",
+        "distanceFromStart": 535.7,
+        "coordinates": [
+          -6.342,
+          42.491,
+          1437
+        ],
+        "tags": [
+          "town",
+          "mountain"
+        ]
+      },
+      "distance": 28.2,
+      "startKm": 507.5,
+      "endKm": 535.7,
+      "startCoordinates": [
+        -6.056,
+        42.456,
+        870
+      ],
+      "endCoordinates": [
+        -6.342,
+        42.491,
+        1437
+      ],
+      "sourceStageIndex": 22,
+      "sourceStageName": "Astorga to Foncebadón",
+      "elevationGainMeters": 596.8,
+      "elevationLossMeters": 116.5,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2460385004",
+          "name": "Albergue Hospedería San Blas",
+          "distanceFromStart": 5.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.1589614,
+            42.4552063
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node12155281701",
+          "name": "The Indian Way",
+          "distanceFromStart": 6.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.2051936,
+            42.4639476
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1025583868",
+          "name": "Albergue Gabino",
+          "distanceFromStart": 7.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.2090543,
+            42.4627105
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4239322390",
+          "name": "Casa Rural",
+          "distanceFromStart": 13,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.2669932,
+            42.4801546
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node419060834",
+          "name": "Albergue Municipal de Rabanal del Camino",
+          "distanceFromStart": 14.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.2840905,
+            42.4807295
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node419056425",
+          "name": "Hostería El Refugio",
+          "distanceFromStart": 14.6,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.2849783,
+            42.4824414
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node419056705",
+          "name": "La Posada de Gaspar",
+          "distanceFromStart": 14.6,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.2856304,
+            42.4823781
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node5873517132",
+          "name": "Casa Indie",
+          "distanceFromStart": 14.6,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.2843802,
+            42.4811729
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1025606354",
+          "name": "Albergue Parroquial Domus Dei",
+          "distanceFromStart": 20.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.3435225,
+            42.4918749
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-foncebadon-wp-ponferrada",
+      "from": "Foncebadón",
+      "to": "Ponferrada",
+      "fromTown": {
+        "id": "wp-foncebadon",
+        "name": "Foncebadón",
+        "type": "town",
+        "distanceFromStart": 535.7,
+        "coordinates": [
+          -6.342,
+          42.491,
+          1437
+        ],
+        "tags": [
+          "town",
+          "mountain"
+        ]
+      },
+      "toTown": {
+        "id": "wp-ponferrada",
+        "name": "Ponferrada",
+        "type": "town",
+        "distanceFromStart": 560.1,
+        "coordinates": [
+          -6.598,
+          42.549,
+          510
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "distance": 24.4,
+      "startKm": 535.7,
+      "endKm": 560.1,
+      "startCoordinates": [
+        -6.342,
+        42.491,
+        1437
+      ],
+      "endCoordinates": [
+        -6.598,
+        42.549,
+        510
+      ],
+      "sourceStageIndex": 23,
+      "sourceStageName": "Foncebadón to Ponferrada",
+      "elevationGainMeters": 211.2,
+      "elevationLossMeters": 1021.5,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node1027761796",
+          "name": "Albergue Parroquial Apóstol Santiago",
+          "distanceFromStart": 6.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.4580969,
+            42.499066
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node428554410",
+          "name": "Hostal El Palacio",
+          "distanceFromStart": 16.8,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.5190299,
+            42.5378187
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4872408863",
+          "name": "Casa Rural Molinaseca",
+          "distanceFromStart": 16.9,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.5206403,
+            42.5376325
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node5126445047",
+          "name": "Albergue Compostela",
+          "distanceFromStart": 16.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.5197998,
+            42.5373054
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node6528563724",
+          "name": "Albergue Señor Oso",
+          "distanceFromStart": 16.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.5198797,
+            42.5378944
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node9790942171",
+          "name": "Casa Rural Elias",
+          "distanceFromStart": 17,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.521844,
+            42.5373379
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1917964086",
+          "name": "Hotel Restaurante Casa Real",
+          "distanceFromStart": 17.2,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.5232409,
+            42.5390257
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1917964091",
+          "name": "Hotel Restaurante de Floriana",
+          "distanceFromStart": 17.2,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.5237993,
+            42.5392612
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node428572312",
+          "name": "Albergue Santa Marina",
+          "distanceFromStart": 17.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.5261598,
+            42.5408811
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-ponferrada-wp-villafranca",
+      "from": "Ponferrada",
+      "to": "Villafranca del Bierzo",
+      "fromTown": {
+        "id": "wp-ponferrada",
+        "name": "Ponferrada",
+        "type": "town",
+        "distanceFromStart": 560.1,
+        "coordinates": [
+          -6.598,
+          42.549,
+          510
+        ],
+        "tags": [
+          "town",
+          "city"
+        ]
+      },
+      "toTown": {
+        "id": "wp-villafranca",
+        "name": "Villafranca del Bierzo",
+        "type": "town",
+        "distanceFromStart": 583.3,
+        "coordinates": [
+          -6.814,
+          42.61,
+          525
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 23.2,
+      "startKm": 560.1,
+      "endKm": 583.3,
+      "startCoordinates": [
+        -6.598,
+        42.549,
+        510
+      ],
+      "endCoordinates": [
+        -6.814,
+        42.61,
+        525
+      ],
+      "sourceStageIndex": 24,
+      "sourceStageName": "Ponferrada to Villafranca del Bierzo",
+      "elevationGainMeters": 233,
+      "elevationLossMeters": 263,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node3071810987",
+          "name": "Albergue Naraya",
+          "distanceFromStart": 9.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.6604491,
+            42.5759418
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3805230344",
+          "name": "Albergue La Medina",
+          "distanceFromStart": 10.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.6687227,
+            42.5796426
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1895715503",
+          "name": "Villa de Cacabelos",
+          "distanceFromStart": 15.6,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.7250406,
+            42.5978925
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460667905",
+          "name": "Albergue El Serbal y la Luna",
+          "distanceFromStart": 17.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.7491221,
+            42.6061047
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-villafranca-wp-o-cebreiro",
+      "from": "Villafranca del Bierzo",
+      "to": "O Cebreiro",
+      "fromTown": {
+        "id": "wp-villafranca",
+        "name": "Villafranca del Bierzo",
+        "type": "town",
+        "distanceFromStart": 583.3,
+        "coordinates": [
+          -6.814,
+          42.61,
+          525
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-o-cebreiro",
+        "name": "O Cebreiro",
+        "type": "town",
+        "distanceFromStart": 611.1,
+        "coordinates": [
+          -7.04,
+          42.709,
+          1300
+        ],
+        "tags": [
+          "town",
+          "mountain",
+          "galicia"
+        ]
+      },
+      "distance": 27.8,
+      "startKm": 583.3,
+      "endKm": 611.1,
+      "startCoordinates": [
+        -6.814,
+        42.61,
+        525
+      ],
+      "endCoordinates": [
+        -7.04,
+        42.709,
+        1300
+      ],
+      "sourceStageIndex": 25,
+      "sourceStageName": "Villafranca del Bierzo to O Cebreiro",
+      "elevationGainMeters": 845,
+      "elevationLossMeters": 58,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2460703234",
+          "name": "Albergue Crispeta",
+          "distanceFromStart": 7.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.8759126,
+            42.6479619
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4946128991",
+          "name": "Albergue Casa Susi",
+          "distanceFromStart": 7.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.8795749,
+            42.6486933
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3071912484",
+          "name": "Albergue Parroquial de Trabadelo",
+          "distanceFromStart": 7.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.8805488,
+            42.6495598
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460693898",
+          "name": "Albergue Municipal de Trabadelo",
+          "distanceFromStart": 8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.8822466,
+            42.6492521
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node414267090",
+          "name": "Hotel Valcarce",
+          "distanceFromStart": 11.7,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.9150437,
+            42.6596917
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node471380816",
+          "name": "Albergue El Peregrino",
+          "distanceFromStart": 11.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9178501,
+            42.6600269
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node12046750369",
+          "name": "Vagabond Vieiras",
+          "distanceFromStart": 12.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.921739,
+            42.661358
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2471709541",
+          "name": "Albergue Camynos",
+          "distanceFromStart": 12.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9265581,
+            42.6636767
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4405450189",
+          "name": "Casa del Pescador",
+          "distanceFromStart": 12.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9269299,
+            42.664248
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460737987",
+          "name": "Albergue Das Ánimas",
+          "distanceFromStart": 13.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.928894,
+            42.6655725
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node5873546769",
+          "name": "CTR Ambasmestas",
+          "distanceFromStart": 13.5,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.928402,
+            42.6659206
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4788484819",
+          "name": "El Rincón del Apóstol",
+          "distanceFromStart": 13.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9307831,
+            42.6653446
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node9167450591",
+          "name": "Hostal El Recanto",
+          "distanceFromStart": 14.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9404471,
+            42.664892
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2470716593",
+          "name": "Albergue Sarracín",
+          "distanceFromStart": 14.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9414319,
+            42.6638563
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2598315683",
+          "name": "Albergue Santa Maria Magdalena",
+          "distanceFromStart": 14.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9436169,
+            42.6644258
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node850043598",
+          "name": "Albergue Municipal Vega de Valcarce",
+          "distanceFromStart": 14.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9453361,
+            42.6654801
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node850044936",
+          "name": "Pensión Fernández",
+          "distanceFromStart": 14.9,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -6.9456193,
+            42.6639137
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2470716592",
+          "name": "Albergue Virgen de la Encina",
+          "distanceFromStart": 15.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9471853,
+            42.6631001
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3809768184",
+          "name": "Albergue El Paso",
+          "distanceFromStart": 15.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.947488,
+            42.6651975
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node850061462",
+          "name": "Albergue Pequeño Potala",
+          "distanceFromStart": 16.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.9672804,
+            42.6729802
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2460768124",
+          "name": "Albergue Las Herrerías",
+          "distanceFromStart": 17.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -6.980801,
+            42.6706059
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3977848523",
+          "name": "A Casa do Ferreiro",
+          "distanceFromStart": 18.9,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -6.9827462,
+            42.6706522
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3977879365",
+          "name": "El Rincón del Bierzo",
+          "distanceFromStart": 22.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.0095742,
+            42.6852048
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-o-cebreiro-wp-triacastela",
+      "from": "O Cebreiro",
+      "to": "Triacastela",
+      "fromTown": {
+        "id": "wp-o-cebreiro",
+        "name": "O Cebreiro",
+        "type": "town",
+        "distanceFromStart": 611.1,
+        "coordinates": [
+          -7.04,
+          42.709,
+          1300
+        ],
+        "tags": [
+          "town",
+          "mountain",
+          "galicia"
+        ]
+      },
+      "toTown": {
+        "id": "wp-triacastela",
+        "name": "Triacastela",
+        "type": "town",
+        "distanceFromStart": 631.7,
+        "coordinates": [
+          -7.239,
+          42.756,
+          665
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 20.6,
+      "startKm": 611.1,
+      "endKm": 631.7,
+      "startCoordinates": [
+        -7.04,
+        42.709,
+        1300
+      ],
+      "endCoordinates": [
+        -7.239,
+        42.756,
+        665
+      ],
+      "sourceStageIndex": 26,
+      "sourceStageName": "O Cebreiro to Triacastela",
+      "elevationGainMeters": 273,
+      "elevationLossMeters": 901,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2461744193",
+          "name": "Albergue Xunta Hospital da Condesa",
+          "distanceFromStart": 5.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.098641,
+            42.7047479
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node5321580216",
+          "name": "O Tear",
+          "distanceFromStart": 5.9,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -7.1016038,
+            42.7048462
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node1472989190",
+          "name": "Albergue Bar Puerto",
+          "distanceFromStart": 9.8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.1259029,
+            42.7127788
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2461948579",
+          "name": "Albergue A Reboleira",
+          "distanceFromStart": 12.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.1571491,
+            42.731219
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node6480676985",
+          "name": "Casa Rural Xata",
+          "distanceFromStart": 14.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.1782201,
+            42.7442244
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-triacastela-wp-sarria",
+      "from": "Triacastela",
+      "to": "Sarria",
+      "fromTown": {
+        "id": "wp-triacastela",
+        "name": "Triacastela",
+        "type": "town",
+        "distanceFromStart": 631.7,
+        "coordinates": [
+          -7.239,
+          42.756,
+          665
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-sarria",
+        "name": "Sarria",
+        "type": "town",
+        "distanceFromStart": 649.5,
+        "coordinates": [
+          -7.414,
+          42.78,
+          453
+        ],
+        "tags": [
+          "town",
+          "100km-start"
+        ]
+      },
+      "distance": 17.8,
+      "startKm": 631.7,
+      "endKm": 649.5,
+      "startCoordinates": [
+        -7.239,
+        42.756,
+        665
+      ],
+      "endCoordinates": [
+        -7.414,
+        42.78,
+        453
+      ],
+      "sourceStageIndex": 27,
+      "sourceStageName": "Triacastela to Sarria",
+      "elevationGainMeters": 350,
+      "elevationLossMeters": 570,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node766652489",
+          "name": "Albergue de peregrinos de Calvor",
+          "distanceFromStart": 11.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.3554821,
+            42.7737036
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-sarria-wp-portomarin",
+      "from": "Sarria",
+      "to": "Portomarín",
+      "fromTown": {
+        "id": "wp-sarria",
+        "name": "Sarria",
+        "type": "town",
+        "distanceFromStart": 649.5,
+        "coordinates": [
+          -7.414,
+          42.78,
+          453
+        ],
+        "tags": [
+          "town",
+          "100km-start"
+        ]
+      },
+      "toTown": {
+        "id": "wp-portomarin",
+        "name": "Portomarín",
+        "type": "town",
+        "distanceFromStart": 671.7,
+        "coordinates": [
+          -7.617,
+          42.81,
+          350
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 22.2,
+      "startKm": 649.5,
+      "endKm": 671.7,
+      "startCoordinates": [
+        -7.414,
+        42.78,
+        453
+      ],
+      "endCoordinates": [
+        -7.617,
+        42.81,
+        350
+      ],
+      "sourceStageIndex": 28,
+      "sourceStageName": "Sarria to Portomarín",
+      "elevationGainMeters": 398,
+      "elevationLossMeters": 457,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node3072002449",
+          "name": "Casa Albergue Molino de Marzán",
+          "distanceFromStart": 6.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.4815455,
+            42.7723001
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2475704469",
+          "name": "Albergue Casa Cruceiro",
+          "distanceFromStart": 13,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.5327441,
+            42.7840002
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node3071984769",
+          "name": "Albergue Casa do Rego",
+          "distanceFromStart": 13.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.5422429,
+            42.7851915
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-portomarin-wp-palas-de-rei",
+      "from": "Portomarín",
+      "to": "Palas de Rei",
+      "fromTown": {
+        "id": "wp-portomarin",
+        "name": "Portomarín",
+        "type": "town",
+        "distanceFromStart": 671.7,
+        "coordinates": [
+          -7.617,
+          42.81,
+          350
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-palas-de-rei",
+        "name": "Palas de Rei",
+        "type": "town",
+        "distanceFromStart": 696.5,
+        "coordinates": [
+          -7.87,
+          42.873,
+          565
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 24.8,
+      "startKm": 671.7,
+      "endKm": 696.5,
+      "startCoordinates": [
+        -7.617,
+        42.81,
+        350
+      ],
+      "endCoordinates": [
+        -7.87,
+        42.873,
+        565
+      ],
+      "sourceStageIndex": 29,
+      "sourceStageName": "Portomarín to Palas de Rei",
+      "elevationGainMeters": 519,
+      "elevationLossMeters": 353,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node10178896163",
+          "name": "Hostería de Gonzar",
+          "distanceFromStart": 6.3,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -7.693265,
+            42.8252727
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node799260747",
+          "name": "Casa García",
+          "distanceFromStart": 6.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.6961905,
+            42.8251556
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4488243967",
+          "name": "Albergue Ortiz",
+          "distanceFromStart": 7.6,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.7043888,
+            42.8305233
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node801247781",
+          "name": "Casa Maruja",
+          "distanceFromStart": 8,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.7089303,
+            42.8317814
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node801248626",
+          "name": "Albergue-Restaurante Labrador",
+          "distanceFromStart": 11,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.734939,
+            42.8408209
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node799260751",
+          "name": "Albergue-Bar Casa Molar",
+          "distanceFromStart": 12.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.7475793,
+            42.844254
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node801247765",
+          "name": "Albergue de Peregrinos Escuela de Ligonde",
+          "distanceFromStart": 16.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.7825391,
+            42.8614844
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node802218055",
+          "name": "Albergue Privado de Airexe",
+          "distanceFromStart": 18.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.787393,
+            42.8656705
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2479725397",
+          "name": "Albergue A Paso de Formiga",
+          "distanceFromStart": 19.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.8068064,
+            42.873447
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node802218127",
+          "name": "Albergue A Calzada",
+          "distanceFromStart": 19.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.8092318,
+            42.8734135
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-palas-de-rei-wp-melide",
+      "from": "Palas de Rei",
+      "to": "Melide",
+      "fromTown": {
+        "id": "wp-palas-de-rei",
+        "name": "Palas de Rei",
+        "type": "town",
+        "distanceFromStart": 696.5,
+        "coordinates": [
+          -7.87,
+          42.873,
+          565
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-melide",
+        "name": "Melide",
+        "type": "town",
+        "distanceFromStart": 710.9,
+        "coordinates": [
+          -8.013,
+          42.917,
+          450
+        ],
+        "tags": [
+          "town",
+          "food",
+          "octopus"
+        ]
+      },
+      "distance": 14.4,
+      "startKm": 696.5,
+      "endKm": 710.9,
+      "startCoordinates": [
+        -7.87,
+        42.873,
+        565
+      ],
+      "endCoordinates": [
+        -8.013,
+        42.917,
+        450
+      ],
+      "sourceStageIndex": 30,
+      "sourceStageName": "Palas de Rei to Arzúa",
+      "elevationGainMeters": 248.1,
+      "elevationLossMeters": 329.9,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node810070701",
+          "name": "Albergue Casa Domingo",
+          "distanceFromStart": 5.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.914531,
+            42.8780132
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node810070755",
+          "name": "Albergue Municipal do Mato (Casanova)",
+          "distanceFromStart": 6.5,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -7.9289383,
+            42.8788674
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-melide-wp-arzua",
+      "from": "Melide",
+      "to": "Arzúa",
+      "fromTown": {
+        "id": "wp-melide",
+        "name": "Melide",
+        "type": "town",
+        "distanceFromStart": 710.9,
+        "coordinates": [
+          -8.013,
+          42.917,
+          450
+        ],
+        "tags": [
+          "town",
+          "food",
+          "octopus"
+        ]
+      },
+      "toTown": {
+        "id": "wp-arzua",
+        "name": "Arzúa",
+        "type": "town",
+        "distanceFromStart": 725,
+        "coordinates": [
+          -8.164,
+          42.926,
+          380
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 14.1,
+      "startKm": 710.9,
+      "endKm": 725,
+      "startCoordinates": [
+        -8.013,
+        42.917,
+        450
+      ],
+      "endCoordinates": [
+        -8.164,
+        42.926,
+        380
+      ],
+      "sourceStageIndex": 30,
+      "sourceStageName": "Palas de Rei to Arzúa",
+      "elevationGainMeters": 242.9,
+      "elevationLossMeters": 323.1,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node2463971626",
+          "name": "Albergue Boente",
+          "distanceFromStart": 5.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.0774875,
+            42.9160342
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2465121889",
+          "name": "Albergue Fuente Saleta",
+          "distanceFromStart": 5.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.0783313,
+            42.9158525
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node818921728",
+          "name": "Albergue Santiago",
+          "distanceFromStart": 8.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.0976048,
+            42.9247497
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-arzua-wp-o-pedrouzo",
+      "from": "Arzúa",
+      "to": "O Pedrouzo",
+      "fromTown": {
+        "id": "wp-arzua",
+        "name": "Arzúa",
+        "type": "town",
+        "distanceFromStart": 725,
+        "coordinates": [
+          -8.164,
+          42.926,
+          380
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-o-pedrouzo",
+        "name": "O Pedrouzo",
+        "type": "town",
+        "distanceFromStart": 744.3,
+        "coordinates": [
+          -8.358,
+          42.907,
+          290
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "distance": 19.3,
+      "startKm": 725,
+      "endKm": 744.3,
+      "startCoordinates": [
+        -8.164,
+        42.926,
+        380
+      ],
+      "endCoordinates": [
+        -8.358,
+        42.907,
+        290
+      ],
+      "sourceStageIndex": 31,
+      "sourceStageName": "Arzúa to O Pedrouzo",
+      "elevationGainMeters": 351,
+      "elevationLossMeters": 447,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node6405780885",
+          "name": "Albergue A Ponte",
+          "distanceFromStart": 7.7,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.2430221,
+            42.9160256
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2465152409",
+          "name": "Albergue Turístico Salceda",
+          "distanceFromStart": 10.2,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.2757493,
+            42.9218746
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node2598534744",
+          "name": "Albergue La Corona",
+          "distanceFromStart": 11.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.280221,
+            42.926652
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4773441757",
+          "name": "Albergue Alborada",
+          "distanceFromStart": 11.4,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.280528,
+            42.9262445
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frances-wp-o-pedrouzo-wp-santiago",
+      "from": "O Pedrouzo",
+      "to": "Santiago de Compostela",
+      "fromTown": {
+        "id": "wp-o-pedrouzo",
+        "name": "O Pedrouzo",
+        "type": "town",
+        "distanceFromStart": 744.3,
+        "coordinates": [
+          -8.358,
+          42.907,
+          290
+        ],
+        "tags": [
+          "town"
+        ]
+      },
+      "toTown": {
+        "id": "wp-santiago",
+        "name": "Santiago de Compostela",
+        "type": "town",
+        "distanceFromStart": 763.7,
+        "coordinates": [
+          -8.544,
+          42.881,
+          260
+        ],
+        "tags": [
+          "town",
+          "city",
+          "end"
+        ]
+      },
+      "distance": 19.4,
+      "startKm": 744.3,
+      "endKm": 763.7,
+      "startCoordinates": [
+        -8.358,
+        42.907,
+        290
+      ],
+      "endCoordinates": [
+        -8.544,
+        42.881,
+        260
+      ],
+      "sourceStageIndex": 32,
+      "sourceStageName": "O Pedrouzo to Santiago de Compostela",
+      "elevationGainMeters": 318,
+      "elevationLossMeters": 345,
+      "intermediateStops": [
+        {
+          "id": "wp-osm-accommodation-node10920575828",
+          "name": "Pensión Dorotea",
+          "distanceFromStart": 7.9,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.4475993,
+            42.8999492
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node4490950689",
+          "name": "Albergue Lavacolla",
+          "distanceFromStart": 8.3,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.443895,
+            42.8995118
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node12207046320",
+          "name": "Albergue O Fervello",
+          "distanceFromStart": 10.1,
+          "type": "accommodation",
+          "subtype": "hostel",
+          "coordinates": [
+            -8.4489882,
+            42.891556
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node800178780",
+          "name": "Casa de Amancio",
+          "distanceFromStart": 10.2,
+          "type": "accommodation",
+          "subtype": "hotel",
+          "coordinates": [
+            -8.4507183,
+            42.8915903
+          ]
+        },
+        {
+          "id": "wp-osm-accommodation-node10733710082",
+          "name": "O Casal das Árbores",
+          "distanceFromStart": 10.8,
+          "type": "accommodation",
+          "subtype": "guesthouse",
+          "coordinates": [
+            -8.4572671,
+            42.889354
+          ]
+        }
+      ]
+    }
+  ]
+}

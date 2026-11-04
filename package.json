@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "import:frances": "node scripts/importRoute.js camino-frances",
+    "inspect:frances": "node scripts/inspectRoute.js",
+    "convert:frances": "node scripts/convertRoute.js",
+    "test:planner": "node --test scripts/routePlanner.test.js",
+    "inspect:planner": "node scripts/inspectPlanner.js"
   },
   "dependencies": {
     "next": "16.4.3",

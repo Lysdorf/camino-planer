@@ -10,7 +10,6 @@ export default function RoutesList({ routes, selectedRoute, onSelectRoute }) {
                     routeName={route.routeName}
                     distance={route.distance}
                     difficulty={route.difficulty}
-                    days={route.days}
                     image={route.image}
                     isSelected={selectedRoute === route.routeName}
                     onSelect={() => onSelectRoute(route.routeName)}

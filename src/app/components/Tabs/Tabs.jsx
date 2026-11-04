@@ -4,7 +4,8 @@ export default function Tabs({
   tabs,
   activeTab,
   onTabChange,
-  selectedRoute
+  selectedRoute,
+  totalDays
 }) {
   return (
     <div className={styles.tabsSticky}>
@@ -22,7 +23,7 @@ export default function Tabs({
 
             {tab.id === "stages" && selectedRoute && (
               <span className={styles.tabCount}>
-                ({selectedRoute.days})
+                ({totalDays})
               </span>
             )}
           </button>

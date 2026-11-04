@@ -1,0 +1,2534 @@
+{
+  "schemaVersion": "1.0.0",
+  "routeId": "camino-frances",
+  "stageCount": 33,
+  "stages": [
+    {
+      "index": 0,
+      "name": {
+        "en": "Saint-Jean-Pied-de-Port to Roncesvalles",
+        "es": "Saint-Jean-Pied-de-Port a Roncesvalles"
+      },
+      "start": {
+        "name": {
+          "en": "Saint-Jean-Pied-de-Port"
+        },
+        "coordinates": [
+          -1.236,
+          43.163,
+          172
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Roncesvalles"
+        },
+        "coordinates": [
+          -1.319,
+          43.01,
+          945
+        ]
+      },
+      "distanceKm": 24.2,
+      "elevationGainMeters": 1419,
+      "elevationLossMeters": 557,
+      "highPointMeters": 1430,
+      "lowPointMeters": 172,
+      "estimatedHours": {
+        "min": 7,
+        "max": 9
+      },
+      "difficulty": "hard",
+      "terrainTypes": [
+        "mountain",
+        "gravel",
+        "forest"
+      ],
+      "terrainNotes": {
+        "en": "Two route options: the Napoleon Route over the pass (harder, more scenic, closed Nov-Mar) and the Valcarlos Route through the valley (longer at 28 km but lower elevation)."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "warnings": [
+        {
+          "en": "The Napoleon Route closes in severe weather (typically Nov 1 - Mar 31). Check conditions at the SJPP pilgrim office before departing."
+        },
+        {
+          "en": "This is the hardest day and it is the first day. Many pilgrims underestimate the Pyrenees crossing."
+        }
+      ],
+      "interior": {
+        "theme": {
+          "en": "Initiation"
+        },
+        "narrative": {
+          "en": "The Pyrenees crossing is the hardest day and it is the first day. This is not an accident. The route breaks you open before you have built up defenses. The climb strips away everything you thought you needed — the extra weight in your pack, the pace you imagined you'd keep, the version of yourself you planned to be. Many pilgrims arrive in Roncesvalles having cried for reasons they cannot articulate."
+        },
+        "commonExperiences": [
+          {
+            "en": "Physical shock at the difficulty"
+          },
+          {
+            "en": "Doubt about whether to continue"
+          },
+          {
+            "en": "Unexpected emotional release during the descent"
+          },
+          {
+            "en": "First encounter with the albergue communal experience"
+          },
+          {
+            "en": "Gratitude for the pilgrim blessing at Roncesvalles chapel"
+          }
+        ],
+        "reflection": {
+          "en": "What did you carry up that mountain that you did not need?"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": {
+        "en": "Roncesvalles to Zubiri"
+      },
+      "start": {
+        "name": {
+          "en": "Roncesvalles"
+        },
+        "coordinates": [
+          -1.319,
+          43.01,
+          945
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Zubiri"
+        },
+        "coordinates": [
+          -1.504,
+          42.931,
+          530
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/357129888 (place=village). The previous [-1.510, 42.929] sat 540 m off the walked line; this sits 160 m off it. Elevation is unchanged."
+      },
+      "distanceKm": 21.4,
+      "elevationGainMeters": 310,
+      "elevationLossMeters": 732,
+      "highPointMeters": 945,
+      "lowPointMeters": 530,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "forest",
+        "dirt",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Recovery"
+        },
+        "narrative": {
+          "en": "After yesterday's trial, today is gentler. The beech forests of Navarra wrap around you. Your body hurts in ways you didn't expect. This is when the Camino teaches its first lesson: you cannot will your way through this. You must negotiate with your body, not command it."
+        },
+        "commonExperiences": [
+          {
+            "en": "Muscle soreness and blisters emerging"
+          },
+          {
+            "en": "Finding your natural pace"
+          },
+          {
+            "en": "First real conversations with other pilgrims"
+          }
+        ],
+        "reflection": {
+          "en": "How do you treat your body when it asks you to slow down?"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": {
+        "en": "Zubiri to Pamplona"
+      },
+      "start": {
+        "name": {
+          "en": "Zubiri"
+        },
+        "coordinates": [
+          -1.504,
+          42.931,
+          530
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/357129888 (place=village). The previous [-1.510, 42.929] sat 540 m off the walked line; this sits 160 m off it. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Pamplona",
+          "eu": "Iruña"
+        },
+        "coordinates": [
+          -1.644,
+          42.818,
+          435
+        ]
+      },
+      "distanceKm": 20.4,
+      "elevationGainMeters": 314,
+      "elevationLossMeters": 231,
+      "highPointMeters": 530,
+      "lowPointMeters": 435,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "easy",
+      "terrainTypes": [
+        "dirt",
+        "forest",
+        "urban"
+      ],
+      "accommodationDensity": "high",
+      "waterSources": 6,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Emergence"
+        },
+        "narrative": {
+          "en": "The forest trail gives way to the outskirts of Pamplona and you walk into your first city on the Camino. The contrast is disorienting — from birdsong and river crossings to traffic lights and shop windows. You catch your reflection in glass and barely recognize the person looking back. Three days in and the city feels like a test: can you carry the quiet you found in the mountains through places that do not want you to be quiet?"
+        },
+        "commonExperiences": [
+          {
+            "en": "Disorientation entering a major city on foot"
+          },
+          {
+            "en": "The temptation of comfort — real beds, hot showers, restaurant meals"
+          },
+          {
+            "en": "Noticing how different you already feel from the person who started"
+          },
+          {
+            "en": "Walking Pamplona's old streets and imagining the running of the bulls"
+          }
+        ],
+        "reflection": {
+          "en": "Who are you when you step out of the wilderness and back into the world?"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": {
+        "en": "Pamplona to Puente la Reina"
+      },
+      "start": {
+        "name": {
+          "en": "Pamplona"
+        },
+        "coordinates": [
+          -1.644,
+          42.818,
+          435
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Puente la Reina"
+        },
+        "coordinates": [
+          -1.813,
+          42.672,
+          350
+        ]
+      },
+      "distanceKm": 23.9,
+      "elevationGainMeters": 414,
+      "elevationLossMeters": 507,
+      "highPointMeters": 770,
+      "lowPointMeters": 350,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "paved",
+        "mountain",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "Notable climb to Alto del Perdón (770 m) with iconic pilgrim monument sculpture on the ridge. Rocky descent on the far side."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Forgiveness"
+        },
+        "narrative": {
+          "en": "The Alto del Perdón — the Height of Forgiveness. The name is not accidental. The wind turbines hum on the ridge and the pilgrim monument faces west, frozen in eternal walking. Below, the land opens into the wide valleys of Navarra. Something about standing at this high point with the word 'forgiveness' in the air invites pilgrims to consider what they might release."
+        },
+        "commonExperiences": [
+          {
+            "en": "Awe at the panoramic views from the ridge"
+          },
+          {
+            "en": "Photographs at the pilgrim monument"
+          },
+          {
+            "en": "Knee pain from the rocky descent"
+          }
+        ],
+        "reflection": {
+          "en": "What would you forgive if you could? Who would you forgive?"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": {
+        "en": "Puente la Reina to Estella"
+      },
+      "start": {
+        "name": {
+          "en": "Puente la Reina"
+        },
+        "coordinates": [
+          -1.813,
+          42.672,
+          350
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Estella",
+          "eu": "Lizarra"
+        },
+        "coordinates": [
+          -2.031,
+          42.671,
+          430
+        ]
+      },
+      "distanceKm": 21.6,
+      "elevationGainMeters": 399,
+      "elevationLossMeters": 326,
+      "highPointMeters": 500,
+      "lowPointMeters": 350,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "paved",
+        "cobblestone"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 5,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Connection"
+        },
+        "narrative": {
+          "en": "The path between Puente la Reina and Estella follows the Ega river through villages where Romanesque churches stand open and unguarded. By now you have started recognizing faces — the German couple who walk fast, the Brazilian woman who sings. The Camino is building a temporary community around you whether you invited it or not. Conversations deepen. Someone tells you why they are really here."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking companions forming naturally"
+          },
+          {
+            "en": "First deep conversation about why you came"
+          },
+          {
+            "en": "Discovering the beauty of Romanesque churches along the river"
+          },
+          {
+            "en": "Your body beginning to find its rhythm"
+          }
+        ],
+        "reflection": {
+          "en": "What have you told someone on this path that you have not told anyone at home?"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": {
+        "en": "Estella to Los Arcos"
+      },
+      "start": {
+        "name": {
+          "en": "Estella"
+        },
+        "coordinates": [
+          -2.031,
+          42.671,
+          430
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Los Arcos"
+        },
+        "coordinates": [
+          -2.192,
+          42.567,
+          450
+        ]
+      },
+      "distanceKm": 21.3,
+      "elevationGainMeters": 388,
+      "elevationLossMeters": 363,
+      "highPointMeters": 650,
+      "lowPointMeters": 430,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Passes through wine country. The Irache wine fountain (free wine for pilgrims) is near the start. Exposed sections with little shade in summer."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Generosity"
+        },
+        "narrative": {
+          "en": "At the Irache monastery, a fountain dispenses free wine for pilgrims. It is absurd and beautiful — a spigot of red wine beside a spigot of water, and the honor system is the only rule. The gesture is older than you. This stretch through Navarra's wine country teaches something the modern world has largely forgotten: that generosity can be anonymous, unconditional, and offered simply because you are passing through."
+        },
+        "commonExperiences": [
+          {
+            "en": "Laughter and photographs at the Irache wine fountain"
+          },
+          {
+            "en": "Long exposed stretches without shade"
+          },
+          {
+            "en": "The quiet pride of completing nearly a week of walking"
+          },
+          {
+            "en": "Sunburn and heat exhaustion in summer months"
+          }
+        ],
+        "reflection": {
+          "en": "When was the last time you gave something to a stranger expecting nothing in return?"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": {
+        "en": "Los Arcos to Logroño"
+      },
+      "start": {
+        "name": {
+          "en": "Los Arcos"
+        },
+        "coordinates": [
+          -2.192,
+          42.567,
+          450
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Logroño"
+        },
+        "coordinates": [
+          -2.444,
+          42.469,
+          384
+        ]
+      },
+      "distanceKm": 27.6,
+      "elevationGainMeters": 368,
+      "elevationLossMeters": 433,
+      "highPointMeters": 500,
+      "lowPointMeters": 384,
+      "estimatedHours": {
+        "min": 6,
+        "max": 8
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel",
+        "paved",
+        "urban"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Endurance"
+        },
+        "narrative": {
+          "en": "At 27.6 kilometers, this is the longest day you have faced so far. The path from Los Arcos stretches through rolling farmland with few villages and fewer distractions. Your feet hurt in new places. The final kilometers into Logroño feel endless. But something shifts today — you stop counting kilometers and start trusting that you will arrive. This is the day your body stops arguing and begins cooperating."
+        },
+        "commonExperiences": [
+          {
+            "en": "Hitting the wall around kilometer 22"
+          },
+          {
+            "en": "The relief of crossing the bridge into Logroño"
+          },
+          {
+            "en": "Celebrating with pintxos on Calle Laurel"
+          },
+          {
+            "en": "Realizing you are tougher than you believed"
+          }
+        ],
+        "reflection": {
+          "en": "What is the difference between the discomfort that means stop and the discomfort that means keep going?"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": {
+        "en": "Logroño to Nájera"
+      },
+      "start": {
+        "name": {
+          "en": "Logroño"
+        },
+        "coordinates": [
+          -2.444,
+          42.469,
+          384
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Nájera"
+        },
+        "coordinates": [
+          -2.735,
+          42.416,
+          485
+        ]
+      },
+      "distanceKm": 28.5,
+      "elevationGainMeters": 366,
+      "elevationLossMeters": 258,
+      "highPointMeters": 550,
+      "lowPointMeters": 384,
+      "estimatedHours": {
+        "min": 6,
+        "max": 8
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "paved",
+        "dirt",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "Through the Rioja wine region. Gentle climbs through vineyards."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Rhythm"
+        },
+        "narrative": {
+          "en": "You walk through the Rioja vineyards and something has changed. You no longer think about how to walk — your legs know. The rows of grapevines extend to the horizon in orderly lines, and your steps have found a similar order. A week in, the rhythm of the Camino has entered your body: wake, walk, eat, sleep, repeat. In this simplicity, your mind begins to quiet. Not empty, but unburdened."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking becomes automatic for the first time"
+          },
+          {
+            "en": "A sense of daily life simplifying"
+          },
+          {
+            "en": "Enjoying the beauty of the vineyard landscape"
+          },
+          {
+            "en": "Feeling settled into the pilgrim routine"
+          }
+        ],
+        "reflection": {
+          "en": "What would your life look like if it were this simple every day?"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": {
+        "en": "Nájera to Santo Domingo de la Calzada"
+      },
+      "start": {
+        "name": {
+          "en": "Nájera"
+        },
+        "coordinates": [
+          -2.735,
+          42.416,
+          485
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Santo Domingo de la Calzada"
+        },
+        "coordinates": [
+          -2.954,
+          42.441,
+          640
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/153692178 (place=town). The previous [-2.955, 42.430] sat 1,213 m off the walked line; this sits 6 m off it. Elevation is unchanged."
+      },
+      "distanceKm": 20.7,
+      "elevationGainMeters": 327,
+      "elevationLossMeters": 179,
+      "highPointMeters": 650,
+      "lowPointMeters": 485,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "easy",
+      "terrainTypes": [
+        "dirt",
+        "gravel",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Tradition"
+        },
+        "narrative": {
+          "en": "Santo Domingo de la Calzada — Saint Dominic of the Causeway — built roads and bridges for pilgrims a thousand years ago. In the cathedral, a live rooster and hen are kept in a Gothic coop, commemorating a miracle of a hanged pilgrim found alive. The story is strange and wonderful and entirely serious to the people who tend those birds. You are walking a path that has been maintained by devoted hands for centuries. You are not alone in this, even when you walk alone."
+        },
+        "commonExperiences": [
+          {
+            "en": "Hearing the rooster crow inside the cathedral"
+          },
+          {
+            "en": "Feeling the weight of a thousand years of pilgrimage"
+          },
+          {
+            "en": "Easy walking that allows the mind to wander freely"
+          },
+          {
+            "en": "First deep rest day considerations"
+          }
+        ],
+        "reflection": {
+          "en": "What traditions have you inherited that you did not choose but now carry willingly?"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": {
+        "en": "Santo Domingo de la Calzada to Belorado"
+      },
+      "start": {
+        "name": {
+          "en": "Santo Domingo de la Calzada"
+        },
+        "coordinates": [
+          -2.954,
+          42.441,
+          640
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/153692178 (place=town). The previous [-2.955, 42.430] sat 1,213 m off the walked line; this sits 6 m off it. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Belorado"
+        },
+        "coordinates": [
+          -3.19,
+          42.42,
+          770
+        ]
+      },
+      "distanceKm": 22,
+      "elevationGainMeters": 328,
+      "elevationLossMeters": 196,
+      "highPointMeters": 800,
+      "lowPointMeters": 640,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "easy",
+      "terrainTypes": [
+        "dirt",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Patience"
+        },
+        "narrative": {
+          "en": "The terrain is gentle and the villages are small and unremarkable. This is a day that teaches patience — not every stage brings a revelation. The wheat fields roll on. Your thoughts loop and repeat. The Camino is not a sequence of peak experiences. It is mostly ordinary walking through ordinary places, and learning to be present in the ordinary is perhaps the harder discipline."
+        },
+        "commonExperiences": [
+          {
+            "en": "A day without dramatic scenery or emotional peaks"
+          },
+          {
+            "en": "Walking through quiet agricultural villages"
+          },
+          {
+            "en": "Restlessness or boredom on flat terrain"
+          },
+          {
+            "en": "Conversations that meander like the path itself"
+          }
+        ],
+        "reflection": {
+          "en": "Can you be fully present on a day when nothing remarkable happens?"
+        }
+      }
+    },
+    {
+      "index": 10,
+      "name": {
+        "en": "Belorado to San Juan de Ortega"
+      },
+      "start": {
+        "name": {
+          "en": "Belorado"
+        },
+        "coordinates": [
+          -3.19,
+          42.42,
+          770
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "San Juan de Ortega"
+        },
+        "coordinates": [
+          -3.437,
+          42.373,
+          1000
+        ]
+      },
+      "distanceKm": 23.9,
+      "elevationGainMeters": 430,
+      "elevationLossMeters": 193,
+      "highPointMeters": 1150,
+      "lowPointMeters": 770,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "forest",
+        "mountain"
+      ],
+      "terrainNotes": {
+        "en": "Crosses the Montes de Oca — a forested mountain range. The monastery of San Juan de Ortega has a famous equinox light phenomenon."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": false,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Solitude"
+        },
+        "narrative": {
+          "en": "The Montes de Oca is the first true wilderness since the Pyrenees. Dense oak and beech forest closes around you, and for long stretches there is no one else on the trail. The monastery at San Juan de Ortega sits in a clearing like a place that chose to be forgotten. Twice a year, at the equinox, a beam of light illuminates a carved scene of the Annunciation. Something about this place — its silence, its hiddenness — invites you to sit with your own solitude without flinching."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking alone through dense forest for hours"
+          },
+          {
+            "en": "Unease followed by deep peace in the wilderness"
+          },
+          {
+            "en": "The stark simplicity of the monastery albergue"
+          },
+          {
+            "en": "Garlic soup served by hospitaleros in the evening"
+          }
+        ],
+        "reflection": {
+          "en": "What is the difference between being alone and being lonely?"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": {
+        "en": "San Juan de Ortega to Burgos"
+      },
+      "start": {
+        "name": {
+          "en": "San Juan de Ortega"
+        },
+        "coordinates": [
+          -3.437,
+          42.373,
+          1000
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Burgos"
+        },
+        "coordinates": [
+          -3.7,
+          42.344,
+          860
+        ]
+      },
+      "distanceKm": 25.8,
+      "elevationGainMeters": 141,
+      "elevationLossMeters": 278,
+      "highPointMeters": 1080,
+      "lowPointMeters": 860,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "paved",
+        "urban"
+      ],
+      "terrainNotes": {
+        "en": "Passes through Atapuerca (UNESCO archaeological site — earliest known European human remains). Long urban approach into Burgos."
+      },
+      "accommodationDensity": "high",
+      "waterSources": 5,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Perspective"
+        },
+        "narrative": {
+          "en": "You pass through Atapuerca, where archaeologists found the oldest human remains in Europe — 800,000 years of human presence in this hillside. The long approach into Burgos takes you through suburbs and industrial zones, and the contrast is deliberate: deep time beside modern sprawl. By the time you stand before the cathedral's Gothic spires, you are carrying a strange awareness that walking is the oldest human act, and that your footsteps are neither the first nor the last."
+        },
+        "commonExperiences": [
+          {
+            "en": "Awe at the deep human history of Atapuerca"
+          },
+          {
+            "en": "Frustration with the long urban approach into Burgos"
+          },
+          {
+            "en": "Standing before Burgos cathedral in stunned silence"
+          },
+          {
+            "en": "Feeling like a genuine pilgrim for the first time"
+          }
+        ],
+        "reflection": {
+          "en": "What does it mean to you that humans have walked this land for hundreds of thousands of years?"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "name": {
+        "en": "Burgos to Hornillos del Camino"
+      },
+      "start": {
+        "name": {
+          "en": "Burgos"
+        },
+        "coordinates": [
+          -3.7,
+          42.344,
+          860
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Hornillos del Camino"
+        },
+        "coordinates": [
+          -3.912,
+          42.337,
+          810
+        ]
+      },
+      "distanceKm": 20.3,
+      "elevationGainMeters": 103,
+      "elevationLossMeters": 148,
+      "highPointMeters": 900,
+      "lowPointMeters": 810,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "The meseta begins. Open plains, cereal fields, dirt and loose stone paths. Little shade."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 2,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Threshold"
+        },
+        "narrative": {
+          "en": "You leave Burgos and the landscape changes. The meseta — the vast central plateau of Spain — opens before you. It is flat, dry, and exposed. Many pilgrims dread it. Those who embrace it often name it the most transformative part of the Camino. The meseta does not give you anything to look at. It gives you yourself."
+        },
+        "commonExperiences": [
+          {
+            "en": "Anxiety about the meseta ahead"
+          },
+          {
+            "en": "Leaving the comfort of a major city"
+          },
+          {
+            "en": "The landscape suddenly feeling very empty"
+          }
+        ],
+        "reflection": {
+          "en": "What part of you resists entering the empty spaces?"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": {
+        "en": "Hornillos del Camino to Castrojeriz"
+      },
+      "start": {
+        "name": {
+          "en": "Hornillos del Camino"
+        },
+        "coordinates": [
+          -3.912,
+          42.337,
+          810
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Castrojeriz"
+        },
+        "coordinates": [
+          -4.14,
+          42.289,
+          800
+        ]
+      },
+      "distanceKm": 19.9,
+      "elevationGainMeters": 174,
+      "elevationLossMeters": 188,
+      "highPointMeters": 900,
+      "lowPointMeters": 800,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel"
+      ],
+      "accommodationDensity": "low",
+      "waterSources": 2,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Emptiness"
+        },
+        "narrative": {
+          "en": "The meseta is where most pilgrims break open. The landscape offers nothing to look at, nowhere to hide, no distraction. Your mind runs out of things to think about. What remains is what you came here to find. The ruins of San Antón monastery appear like a mirage — a reminder that others have walked this emptiness for centuries."
+        },
+        "commonExperiences": [
+          {
+            "en": "Boredom giving way to unexpected peace"
+          },
+          {
+            "en": "Time distortion — hours pass without awareness"
+          },
+          {
+            "en": "First experience of walking meditation without trying"
+          },
+          {
+            "en": "Loneliness or profound solitude, sometimes both in the same hour"
+          }
+        ],
+        "reflection": {
+          "en": "When the landscape offers you nothing, what do you find inside?"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "name": {
+        "en": "Castrojeriz to Frómista"
+      },
+      "start": {
+        "name": {
+          "en": "Castrojeriz"
+        },
+        "coordinates": [
+          -4.14,
+          42.289,
+          800
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Frómista"
+        },
+        "coordinates": [
+          -4.406,
+          42.268,
+          780
+        ]
+      },
+      "distanceKm": 24.7,
+      "elevationGainMeters": 201,
+      "elevationLossMeters": 233,
+      "highPointMeters": 900,
+      "lowPointMeters": 780,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Notable climb at Alto de Mostelares, then long flat paths and canal-side walking."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 2,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Perseverance"
+        },
+        "narrative": {
+          "en": "The Alto de Mostelares rises like a wall out of the flat meseta — a short, steep climb that rewards you with the most expansive view on the entire plateau. From the top, the land stretches in every direction without feature. Then the descent, and then hours of walking beside a canal, flat and straight and hypnotic. This is the meseta at its most relentless. Pilgrims who are going to quit often quit around here. Those who stay discover that perseverance is not about willpower. It is about walking the next step and then the next."
+        },
+        "commonExperiences": [
+          {
+            "en": "The panoramic view from Alto de Mostelares"
+          },
+          {
+            "en": "Contemplating quitting the Camino"
+          },
+          {
+            "en": "Hours of canal-side walking in silence"
+          },
+          {
+            "en": "Finding unexpected beauty in the monotony"
+          }
+        ],
+        "reflection": {
+          "en": "What keeps you walking when there is no scenery, no company, and no visible destination?"
+        }
+      }
+    },
+    {
+      "index": 15,
+      "name": {
+        "en": "Frómista to Carrión de los Condes"
+      },
+      "start": {
+        "name": {
+          "en": "Frómista"
+        },
+        "coordinates": [
+          -4.406,
+          42.268,
+          780
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Carrión de los Condes"
+        },
+        "coordinates": [
+          -4.602,
+          42.338,
+          830
+        ]
+      },
+      "distanceKm": 18.8,
+      "elevationGainMeters": 73,
+      "elevationLossMeters": 29,
+      "highPointMeters": 830,
+      "lowPointMeters": 780,
+      "estimatedHours": {
+        "min": 4,
+        "max": 5
+      },
+      "difficulty": "easy",
+      "terrainTypes": [
+        "dirt",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 3,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Surrender"
+        },
+        "narrative": {
+          "en": "You did not quit. And in the wake of that survival, an easy, flat day, and in that ease something softens. The Romanesque church of San Martín in Frómista is considered one of the most perfect in Spain — symmetrical, proportioned, complete. You do not need to understand architecture to feel what it offers: the peace of something made with total devotion and no hurry. Carrión de los Condes was once a major medieval city. Now it is a quiet town that knows how to receive tired walkers. You are learning to receive, too."
+        },
+        "commonExperiences": [
+          {
+            "en": "Lingering in the church of San Martín de Frómista"
+          },
+          {
+            "en": "A rare easy day that feels like a gift"
+          },
+          {
+            "en": "Letting go of the need to walk fast or far"
+          },
+          {
+            "en": "Deep fatigue giving way to acceptance"
+          }
+        ],
+        "reflection": {
+          "en": "What would happen if you stopped trying to earn your rest?"
+        }
+      }
+    },
+    {
+      "index": 16,
+      "name": {
+        "en": "Carrión de los Condes to Terradillos de los Templarios"
+      },
+      "start": {
+        "name": {
+          "en": "Carrión de los Condes"
+        },
+        "coordinates": [
+          -4.602,
+          42.338,
+          830
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Terradillos de los Templarios"
+        },
+        "coordinates": [
+          -4.891,
+          42.363,
+          880
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/268521664 (place=hamlet). The previous [-4.866, 42.355] was on the walked line (26 m off it) but 3.0 km short of the hamlet along it; this sits 55 m off the line. That 3.0 km is what made stage 16 measure under its declared distance and stage 17 the same amount over. Elevation is unchanged."
+      },
+      "distanceKm": 26.3,
+      "elevationGainMeters": 105,
+      "elevationLossMeters": 51,
+      "highPointMeters": 880,
+      "lowPointMeters": 830,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "17 km stretch without any villages after leaving Carrión. Carry sufficient water and food."
+      },
+      "accommodationDensity": "very_low",
+      "waterSources": 1,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": false,
+        "restaurant": true
+      },
+      "warnings": [
+        {
+          "en": "17 km without services after Carrión de los Condes. Carry at least 2L of water and food."
+        }
+      ],
+      "interior": {
+        "theme": {
+          "en": "Desolation"
+        },
+        "narrative": {
+          "en": "Seventeen kilometers without a village, a bar, a bench, a tree. Just the path and the wheat and the sky. This is the most exposed stretch on the entire Camino. You carry your water and food and yourself across a landscape that offers nothing but distance. The Templars named their settlement here for a reason — this was the frontier, the edge of the known. By the time you reach Terradillos, you understand in your body what 'desert' means, even in the middle of Spain's breadbasket."
+        },
+        "commonExperiences": [
+          {
+            "en": "The strange intimacy of walking 17 km without seeing a building"
+          },
+          {
+            "en": "Rationing water and feeling genuinely vulnerable"
+          },
+          {
+            "en": "A mind that has finally stopped narrating and simply watches"
+          },
+          {
+            "en": "Arriving at the tiny village feeling you have crossed something vast"
+          }
+        ],
+        "reflection": {
+          "en": "What do you discover about yourself when all external support is removed?"
+        }
+      }
+    },
+    {
+      "index": 17,
+      "name": {
+        "en": "Terradillos de los Templarios to Bercianos del Real Camino"
+      },
+      "start": {
+        "name": {
+          "en": "Terradillos de los Templarios"
+        },
+        "coordinates": [
+          -4.891,
+          42.363,
+          880
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/268521664 (place=hamlet). The previous [-4.866, 42.355] was on the walked line (26 m off it) but 3.0 km short of the hamlet along it; this sits 55 m off the line. That 3.0 km is what made stage 16 measure under its declared distance and stage 17 the same amount over. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Bercianos del Real Camino"
+        },
+        "coordinates": [
+          -5.145,
+          42.388,
+          850
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/274957313 (place=village). The previous [-5.153, 42.433] sat 3,976 m off the walked line — about 5 km north of the village — and forced this boundary onto the proportional fallback; this sits 22 m off it. Elevation is unchanged."
+      },
+      "distanceKm": 23.2,
+      "elevationGainMeters": 119,
+      "elevationLossMeters": 154,
+      "highPointMeters": 880,
+      "lowPointMeters": 840,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Passes through Sahagún, a significant historical town with Mudéjar architecture."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 3,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Halfway"
+        },
+        "narrative": {
+          "en": "You survived yesterday's longest stretch without shelter on the entire route, and you did not break. Sahagún marks the geographical midpoint of the Camino Frances. Its Mudéjar brick towers — Islamic architecture built by Christian hands — speak of a Spain where traditions blended rather than fought. You are halfway. The realization lands differently than you expected. There is no fanfare, no ceremony. You simply walk through a town and keep going. But halfway also means you cannot turn back without walking as far as you have already come. You are committed now, in a way you were not before."
+        },
+        "commonExperiences": [
+          {
+            "en": "The quiet significance of reaching the halfway point"
+          },
+          {
+            "en": "Calling home and struggling to explain what is happening to you"
+          },
+          {
+            "en": "Admiring the Mudéjar architecture in Sahagún"
+          },
+          {
+            "en": "A deepening commitment to finishing"
+          }
+        ],
+        "reflection": {
+          "en": "Now that turning back is as far as going forward, what does commitment feel like in your body?"
+        }
+      }
+    },
+    {
+      "index": 18,
+      "name": {
+        "en": "Bercianos del Real Camino to Mansilla de las Mulas"
+      },
+      "start": {
+        "name": {
+          "en": "Bercianos del Real Camino"
+        },
+        "coordinates": [
+          -5.145,
+          42.388,
+          850
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/274957313 (place=village). The previous [-5.153, 42.433] sat 3,976 m off the walked line — about 5 km north of the village — and forced this boundary onto the proportional fallback; this sits 22 m off it. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Mansilla de las Mulas"
+        },
+        "coordinates": [
+          -5.415,
+          42.498,
+          800
+        ]
+      },
+      "distanceKm": 26.3,
+      "elevationGainMeters": 31,
+      "elevationLossMeters": 82,
+      "highPointMeters": 850,
+      "lowPointMeters": 800,
+      "estimatedHours": {
+        "min": 6,
+        "max": 8
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel"
+      ],
+      "accommodationDensity": "low",
+      "waterSources": 2,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Endlessness"
+        },
+        "narrative": {
+          "en": "The last stage of the meseta, and it knows it. The flatness that once terrified you has become a companion. You walk toward Mansilla de las Mulas across land so level you can see the town for an hour before you reach it. The medieval walls still stand. Tomorrow you will be in León, and the meseta will be behind you. Many pilgrims feel a strange sadness here — the emptiness they dreaded has become the space where they found themselves, and they are about to lose it."
+        },
+        "commonExperiences": [
+          {
+            "en": "Seeing your destination for an hour before arriving"
+          },
+          {
+            "en": "Nostalgia for the meseta before it is even over"
+          },
+          {
+            "en": "A body that has fully adapted to long-distance walking"
+          },
+          {
+            "en": "Anticipation of León and the mountains beyond"
+          }
+        ],
+        "reflection": {
+          "en": "What will you miss about the emptiness when it is gone?"
+        }
+      }
+    },
+    {
+      "index": 19,
+      "name": {
+        "en": "Mansilla de las Mulas to León"
+      },
+      "start": {
+        "name": {
+          "en": "Mansilla de las Mulas"
+        },
+        "coordinates": [
+          -5.415,
+          42.498,
+          800
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "León"
+        },
+        "coordinates": [
+          -5.568,
+          42.595,
+          837
+        ]
+      },
+      "distanceKm": 18.4,
+      "elevationGainMeters": 107,
+      "elevationLossMeters": 73,
+      "highPointMeters": 840,
+      "lowPointMeters": 800,
+      "estimatedHours": {
+        "min": 4,
+        "max": 5
+      },
+      "difficulty": "easy",
+      "terrainTypes": [
+        "paved",
+        "urban"
+      ],
+      "accommodationDensity": "high",
+      "waterSources": 5,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Reentry"
+        },
+        "narrative": {
+          "en": "León marks the end of the meseta and the beginning of the mountains. After days of emptiness, the city feels overwhelming — noise, traffic, choices, stimulation. The cathedral's stained glass is the largest medieval collection in Europe. Pilgrims often take a rest day here, and the city has a way of testing your resolve. The meseta simplified your life. León complicates it again."
+        },
+        "commonExperiences": [
+          {
+            "en": "Sensory overload after days of open plains"
+          },
+          {
+            "en": "Temptation to take multiple rest days"
+          },
+          {
+            "en": "Standing inside the cathedral and weeping at the light"
+          },
+          {
+            "en": "Re-evaluating what you need versus what you want"
+          }
+        ],
+        "reflection": {
+          "en": "After the simplicity of the meseta, what do you actually miss?"
+        }
+      }
+    },
+    {
+      "index": 20,
+      "name": {
+        "en": "León to San Martín del Camino"
+      },
+      "start": {
+        "name": {
+          "en": "León"
+        },
+        "coordinates": [
+          -5.568,
+          42.595,
+          837
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "San Martín del Camino"
+        },
+        "coordinates": [
+          -5.809,
+          42.495,
+          870
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/349247743 (place=hamlet); this route's own wp-san-martin waypoint already sat about 140 m from that node before this correction. The previous [-5.838, 42.457] sat 2,041 m off the walked line; this sits 18 m off it. Elevation is unchanged."
+      },
+      "distanceKm": 24.6,
+      "elevationGainMeters": 131,
+      "elevationLossMeters": 96,
+      "highPointMeters": 870,
+      "lowPointMeters": 837,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "paved",
+        "dirt"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Departure"
+        },
+        "narrative": {
+          "en": "Leaving León is harder than arriving. The city offered comfort, culture, a rest day, maybe two. Walking out through the suburbs in the early morning, past the Hostal de San Marcos and into open country again, you feel the pull of the life you left behind. Every city on the Camino is a small rehearsal for going home — and every departure from a city is a recommitment to the path. The terrain is flat and uninspiring, which makes the interior work of leaving all the more visible."
+        },
+        "commonExperiences": [
+          {
+            "en": "Difficulty leaving a comfortable city"
+          },
+          {
+            "en": "Navigating confusing path markers through León's outskirts"
+          },
+          {
+            "en": "Missing the pilgrim community after a rest day scattered everyone"
+          },
+          {
+            "en": "Recommitting to the walk with clearer intention"
+          }
+        ],
+        "reflection": {
+          "en": "What comforts are you most reluctant to leave behind, on the Camino and in life?"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "name": {
+        "en": "San Martín del Camino to Astorga"
+      },
+      "start": {
+        "name": {
+          "en": "San Martín del Camino"
+        },
+        "coordinates": [
+          -5.809,
+          42.495,
+          870
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/349247743 (place=hamlet); this route's own wp-san-martin waypoint already sat about 140 m from that node before this correction. The previous [-5.838, 42.457] sat 2,041 m off the walked line; this sits 18 m off it. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Astorga"
+        },
+        "coordinates": [
+          -6.056,
+          42.456,
+          870
+        ]
+      },
+      "distanceKm": 23.7,
+      "elevationGainMeters": 190,
+      "elevationLossMeters": 188,
+      "highPointMeters": 880,
+      "lowPointMeters": 820,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Crosses the medieval bridge at Hospital de Órbigo — site of a famous 15th century jousting tournament."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Romance"
+        },
+        "narrative": {
+          "en": "The medieval bridge at Hospital de Órbigo is the longest on the Camino and the site of a 15th-century jousting tournament — a knight fought 300 bouts to win back his lady's honor. The story is ridiculous and romantic and somehow fitting for the Camino, where extravagant gestures feel possible. Astorga welcomes you with Gaudí's fairy-tale bishop's palace and chocolate shops. After weeks of austerity, this day is playful, even whimsical. The Camino is reminding you that not everything needs to be solemn to be meaningful."
+        },
+        "commonExperiences": [
+          {
+            "en": "Crossing the ancient bridge at Hospital de Órbigo"
+          },
+          {
+            "en": "Chocolate and maragato stew in Astorga"
+          },
+          {
+            "en": "The surprise of Gaudí's palace in a small town"
+          },
+          {
+            "en": "Lightness and laughter after weeks of intensity"
+          }
+        ],
+        "reflection": {
+          "en": "When did you last do something extravagant for no practical reason?"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "name": {
+        "en": "Astorga to Foncebadón"
+      },
+      "start": {
+        "name": {
+          "en": "Astorga"
+        },
+        "coordinates": [
+          -6.056,
+          42.456,
+          870
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Foncebadón"
+        },
+        "coordinates": [
+          -6.342,
+          42.491,
+          1437
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/349248487 (place=hamlet). The previous [-6.385, 42.482] sat 696 m off the walked line; this sits 6 m off it. Elevation is unchanged."
+      },
+      "distanceKm": 25.8,
+      "elevationGainMeters": 576,
+      "elevationLossMeters": 16,
+      "highPointMeters": 1437,
+      "lowPointMeters": 870,
+      "estimatedHours": {
+        "min": 6,
+        "max": 8
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "mountain",
+        "cobblestone"
+      ],
+      "terrainNotes": {
+        "en": "Steady gradual climb through the Maragatería region. Traditional stone villages. The climb steepens after Rabanal del Camino."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Ascent"
+        },
+        "narrative": {
+          "en": "You climb into the mountains of the Maragatería, through stone villages that feel abandoned by time but not by dignity. The air thins and cools. After weeks of flatland, the uphill pull in your calves is almost welcome. Foncebadón was a ghost village a generation ago — now pilgrims have brought it back to life. Tomorrow you will reach Cruz de Ferro, the highest and deepest point of the Camino. Tonight, in this half-ruined village above the clouds, you prepare. Something in you knows that what comes next will matter."
+        },
+        "commonExperiences": [
+          {
+            "en": "Relief at returning to mountains after the meseta and plains"
+          },
+          {
+            "en": "The haunting beauty of semi-abandoned stone villages"
+          },
+          {
+            "en": "Carrying a stone from home, feeling its weight in a new way"
+          },
+          {
+            "en": "Quiet anticipation of tomorrow's Cruz de Ferro ritual"
+          }
+        ],
+        "reflection": {
+          "en": "What are you preparing to let go of at the cross?"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "name": {
+        "en": "Foncebadón to Ponferrada"
+      },
+      "start": {
+        "name": {
+          "en": "Foncebadón"
+        },
+        "coordinates": [
+          -6.342,
+          42.491,
+          1437
+        ],
+        "note": "Longitude and latitude corrected to OpenStreetMap place node/349248487 (place=hamlet). The previous [-6.385, 42.482] sat 696 m off the walked line; this sits 6 m off it. Elevation is unchanged."
+      },
+      "end": {
+        "name": {
+          "en": "Ponferrada"
+        },
+        "coordinates": [
+          -6.598,
+          42.549,
+          510
+        ]
+      },
+      "distanceKm": 26.8,
+      "elevationGainMeters": 232,
+      "elevationLossMeters": 1122,
+      "highPointMeters": 1505,
+      "lowPointMeters": 510,
+      "estimatedHours": {
+        "min": 7,
+        "max": 9
+      },
+      "difficulty": "hard",
+      "terrainTypes": [
+        "mountain",
+        "gravel",
+        "dirt",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Passes Cruz de Ferro (1,505 m — highest point on the Camino Frances). Severe descent through mountain villages. Rocky and steep in places."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Release"
+        },
+        "narrative": {
+          "en": "The Cruz de Ferro is the emotional summit of the Camino. Pilgrims arrive in the pre-dawn darkness, carrying their stone from home. The iron cross stands on a wooden pole atop a cairn of thousands of stones — each one someone's burden, left behind. The ritual is simple: place your stone, say what you need to say, and walk on. The descent that follows is the longest and steepest on the route. Your knees bear the weight your heart has released."
+        },
+        "commonExperiences": [
+          {
+            "en": "Arriving at Cruz de Ferro before dawn to be alone"
+          },
+          {
+            "en": "Unexpected tears when placing the stone"
+          },
+          {
+            "en": "Feeling physically lighter afterward"
+          },
+          {
+            "en": "Severe knee pain during the 900-meter descent"
+          },
+          {
+            "en": "Arriving in Ponferrada exhausted but different"
+          }
+        ],
+        "reflection": {
+          "en": "What stone have you been carrying? Can you name it?"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "name": {
+        "en": "Ponferrada to Villafranca del Bierzo"
+      },
+      "start": {
+        "name": {
+          "en": "Ponferrada"
+        },
+        "coordinates": [
+          -6.598,
+          42.549,
+          510
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Villafranca del Bierzo"
+        },
+        "coordinates": [
+          -6.814,
+          42.61,
+          525
+        ]
+      },
+      "distanceKm": 23.2,
+      "elevationGainMeters": 233,
+      "elevationLossMeters": 263,
+      "highPointMeters": 560,
+      "lowPointMeters": 510,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "paved",
+        "dirt",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "Bierzo valley — vineyard paths and sun-exposed terrain."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Lightness"
+        },
+        "narrative": {
+          "en": "After the emotional intensity of Cruz de Ferro and the brutal descent, this day through the Bierzo valley vineyards feels like convalescence. The body is battered but the spirit is lighter. Something was left at the cross and you can feel its absence — not as loss, but as space. You left the Templar castle behind this morning — a fortress built by warrior monks to protect pilgrims on this very route. You no longer need protecting. You have become your own guardian on this path."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking with a sense of unburdening after Cruz de Ferro"
+          },
+          {
+            "en": "Gentler terrain that allows emotional processing"
+          },
+          {
+            "en": "Visiting the Templar castle in Ponferrada"
+          },
+          {
+            "en": "Tasting Bierzo wines and feeling celebratory"
+          }
+        ],
+        "reflection": {
+          "en": "What does the space feel like where the weight used to be?"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "name": {
+        "en": "Villafranca del Bierzo to O Cebreiro"
+      },
+      "start": {
+        "name": {
+          "en": "Villafranca del Bierzo"
+        },
+        "coordinates": [
+          -6.814,
+          42.61,
+          525
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "O Cebreiro"
+        },
+        "coordinates": [
+          -7.04,
+          42.709,
+          1300
+        ]
+      },
+      "distanceKm": 27.8,
+      "elevationGainMeters": 845,
+      "elevationLossMeters": 58,
+      "highPointMeters": 1300,
+      "lowPointMeters": 525,
+      "estimatedHours": {
+        "min": 8,
+        "max": 10
+      },
+      "difficulty": "hard",
+      "terrainTypes": [
+        "dirt",
+        "mountain",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "The 'Queen Stage' — greatest single ascent on the route. 660 m elevation gain in the final 12 km. Entering Galicia."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "warnings": [
+        {
+          "en": "The hardest climbing day. 660 m gain in the final 12 km. Start early and carry sufficient water."
+        }
+      ],
+      "interior": {
+        "theme": {
+          "en": "Trust"
+        },
+        "narrative": {
+          "en": "The Queen Stage. By now you have walked 500 km and your body knows what it can do. The climb to O Cebreiro tests whether you trust that knowledge. The village at the top has been receiving pilgrims since the 9th century. The pre-Romanesque church of Santa María la Real is where the Holy Grail miracle is said to have occurred. You enter Galicia — the final region, the final language, the final landscape."
+        },
+        "commonExperiences": [
+          {
+            "en": "Drawing on reserves you didn't know you had"
+          },
+          {
+            "en": "The emotional weight of entering the last region"
+          },
+          {
+            "en": "Mist and rain adding to the atmosphere"
+          },
+          {
+            "en": "Sitting in the ancient church at the summit"
+          }
+        ],
+        "reflection": {
+          "en": "When your body said it could not climb any further, what answered back?"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "name": {
+        "en": "O Cebreiro to Triacastela"
+      },
+      "start": {
+        "name": {
+          "en": "O Cebreiro"
+        },
+        "coordinates": [
+          -7.04,
+          42.709,
+          1300
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Triacastela"
+        },
+        "coordinates": [
+          -7.239,
+          42.756,
+          665
+        ]
+      },
+      "distanceKm": 20.6,
+      "elevationGainMeters": 273,
+      "elevationLossMeters": 901,
+      "highPointMeters": 1335,
+      "lowPointMeters": 665,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "mountain",
+        "dirt",
+        "forest"
+      ],
+      "terrainNotes": {
+        "en": "Galician mountains. Two-thirds of the day above 1,200 m. Passes through the Sierra de Ancares."
+      },
+      "accommodationDensity": "low",
+      "waterSources": 3,
+      "services": {
+        "atm": false,
+        "pharmacy": false,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Descent"
+        },
+        "narrative": {
+          "en": "You walk above the clouds through the Galician mountains, and then you descend. The landscape transforms — from bare summits to chestnut groves to the green, wet valleys below. Everything here is softer than Castilla. The stone walls are covered in moss. The air smells of chestnut and damp earth. After the arid meseta and the high mountains, Galicia feels like arriving somewhere that has been waiting for you. Your body descends 600 meters and your guard comes down with it."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking through clouds above 1,200 meters"
+          },
+          {
+            "en": "The shock of Galicia's greenness after weeks of brown and gold"
+          },
+          {
+            "en": "A gentler, more humid landscape that softens the body"
+          },
+          {
+            "en": "Feeling the end approaching and wanting to slow down"
+          }
+        ],
+        "reflection": {
+          "en": "What defenses have you been carrying that you no longer need?"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "name": {
+        "en": "Triacastela to Sarria"
+      },
+      "start": {
+        "name": {
+          "en": "Triacastela"
+        },
+        "coordinates": [
+          -7.239,
+          42.756,
+          665
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Sarria"
+        },
+        "coordinates": [
+          -7.414,
+          42.78,
+          453
+        ]
+      },
+      "distanceKm": 17.8,
+      "elevationGainMeters": 350,
+      "elevationLossMeters": 570,
+      "highPointMeters": 900,
+      "lowPointMeters": 453,
+      "estimatedHours": {
+        "min": 4,
+        "max": 6
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "forest",
+        "paved"
+      ],
+      "terrainNotes": {
+        "en": "Two route options: via San Xil (shorter, 17.8 km) or via Samos monastery (longer, 24.7 km). Both are beautiful Galician valleys."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Threshold of Completion"
+        },
+        "narrative": {
+          "en": "Sarria is 111 km from Santiago — just over the 100 km minimum for the Compostela. Thousands of new pilgrims start here, and the trail suddenly fills with fresh faces, clean gear, and fast paces. For those who started in SJPP, this can feel jarring. The quiet intimacy of the meseta and mountains gives way to a crowded path. The Camino asks: can you hold your experience without needing others to validate it?"
+        },
+        "commonExperiences": [
+          {
+            "en": "Frustration or judgment toward short-distance pilgrims"
+          },
+          {
+            "en": "Realizing that judgment reveals more about you than about them"
+          },
+          {
+            "en": "Grief that the walk is ending"
+          },
+          {
+            "en": "Protectiveness over the experience you've built"
+          }
+        ],
+        "reflection": {
+          "en": "Does someone else's shorter journey diminish yours?"
+        }
+      }
+    },
+    {
+      "index": 28,
+      "name": {
+        "en": "Sarria to Portomarín"
+      },
+      "start": {
+        "name": {
+          "en": "Sarria"
+        },
+        "coordinates": [
+          -7.414,
+          42.78,
+          453
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Portomarín"
+        },
+        "coordinates": [
+          -7.617,
+          42.81,
+          350
+        ]
+      },
+      "distanceKm": 22.2,
+      "elevationGainMeters": 398,
+      "elevationLossMeters": 457,
+      "highPointMeters": 550,
+      "lowPointMeters": 350,
+      "estimatedHours": {
+        "min": 5,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "forest",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "Rural Galicia — meadows, oak and chestnut forests, small stone villages."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Impermanence"
+        },
+        "narrative": {
+          "en": "The path winds through rural Galicia — oak and chestnut forests, stone hamlets with hórreos standing like small temples to the harvest. The trail is crowded now with pilgrims who started in Sarria, and you must find your peace amid the noise. Portomarín itself was moved stone by stone when a dam flooded the original town. The old bridge emerges when the water is low, a ghost of what was. Everything on this Camino — the friendships, the pain, the beauty — is temporary. Portomarín teaches you to hold things lightly."
+        },
+        "commonExperiences": [
+          {
+            "en": "Adjusting to the crowded trail after Sarria"
+          },
+          {
+            "en": "The beauty of oak-shaded paths through small hamlets"
+          },
+          {
+            "en": "Seeing the drowned old town beneath the reservoir"
+          },
+          {
+            "en": "Pre-arrival anxiety beginning to build"
+          }
+        ],
+        "reflection": {
+          "en": "What are you holding onto that has already changed its form?"
+        }
+      }
+    },
+    {
+      "index": 29,
+      "name": {
+        "en": "Portomarín to Palas de Rei"
+      },
+      "start": {
+        "name": {
+          "en": "Portomarín"
+        },
+        "coordinates": [
+          -7.617,
+          42.81,
+          350
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Palas de Rei"
+        },
+        "coordinates": [
+          -7.87,
+          42.873,
+          565
+        ]
+      },
+      "distanceKm": 24.8,
+      "elevationGainMeters": 519,
+      "elevationLossMeters": 353,
+      "highPointMeters": 725,
+      "lowPointMeters": 350,
+      "estimatedHours": {
+        "min": 6,
+        "max": 7
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "dirt",
+        "gravel",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Gratitude"
+        },
+        "narrative": {
+          "en": "The rolling Galician hills demand more of your legs than you expected this late in the journey, but your body answers without complaint. The small churches and wayside crosses appear every few kilometers, each one placed by someone who wanted pilgrims to feel accompanied. You begin to notice all the hands that have held this path open for you — the hospitaleros, the farmers who maintain the trail markers, the bar owners who welcome muddy strangers. Gratitude arrives not as an idea but as a physical sensation, a warmth in the chest that has nothing to do with exertion."
+        },
+        "commonExperiences": [
+          {
+            "en": "Feeling surprisingly strong despite accumulated fatigue"
+          },
+          {
+            "en": "Gratitude toward the people who maintain the Camino"
+          },
+          {
+            "en": "Beginning to say goodbye to walking companions"
+          },
+          {
+            "en": "Counting remaining days and not wanting them to end"
+          }
+        ],
+        "reflection": {
+          "en": "Who has held the path open for you in your life, and have you thanked them?"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "name": {
+        "en": "Palas de Rei to Arzúa"
+      },
+      "start": {
+        "name": {
+          "en": "Palas de Rei"
+        },
+        "coordinates": [
+          -7.87,
+          42.873,
+          565
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Arzúa"
+        },
+        "coordinates": [
+          -8.164,
+          42.926,
+          380
+        ]
+      },
+      "distanceKm": 28.5,
+      "elevationGainMeters": 491,
+      "elevationLossMeters": 653,
+      "highPointMeters": 570,
+      "lowPointMeters": 280,
+      "estimatedHours": {
+        "min": 7,
+        "max": 8
+      },
+      "difficulty": "hard",
+      "terrainTypes": [
+        "dirt",
+        "forest",
+        "gravel"
+      ],
+      "terrainNotes": {
+        "en": "Longest of the final stages. Continuous ups and downs, many stream crossings, eucalyptus forests. Passes through Melide — famous for pulpo (octopus)."
+      },
+      "accommodationDensity": "moderate",
+      "waterSources": 5,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Grief"
+        },
+        "narrative": {
+          "en": "The longest of the final stages, through eucalyptus forests that smell medicinal and strange. The constant ups and downs through stream valleys exhaust legs that have walked nearly 700 kilometers. In Melide, you eat pulpo a feira with other pilgrims and the meal has the feeling of a last supper. People exchange addresses, make promises to stay in touch, know that most of them will not. The grief of the Camino ending is not about the walk. It is about the person you became while walking, and the fear that person will not survive the return home."
+        },
+        "commonExperiences": [
+          {
+            "en": "Exhaustion from the relentless terrain on tired legs"
+          },
+          {
+            "en": "Eating octopus in Melide as a pilgrim tradition"
+          },
+          {
+            "en": "Exchanging contact details with walking companions"
+          },
+          {
+            "en": "Grief arriving before the journey has actually ended"
+          }
+        ],
+        "reflection": {
+          "en": "Which version of yourself do you want to bring home?"
+        }
+      }
+    },
+    {
+      "index": 31,
+      "name": {
+        "en": "Arzúa to O Pedrouzo"
+      },
+      "start": {
+        "name": {
+          "en": "Arzúa"
+        },
+        "coordinates": [
+          -8.164,
+          42.926,
+          380
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "O Pedrouzo"
+        },
+        "coordinates": [
+          -8.358,
+          42.907,
+          290
+        ]
+      },
+      "distanceKm": 19.3,
+      "elevationGainMeters": 351,
+      "elevationLossMeters": 447,
+      "highPointMeters": 400,
+      "lowPointMeters": 280,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "forest",
+        "dirt",
+        "paved"
+      ],
+      "accommodationDensity": "moderate",
+      "waterSources": 4,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Vigil"
+        },
+        "narrative": {
+          "en": "The penultimate day. Tomorrow you will arrive. Tonight you lie in your bunk in O Pedrouzo and the feeling is not excitement but something closer to reverence. The eucalyptus forests were quiet today, the path gentle, as if the Camino itself was giving you space to prepare. You have walked nearly 800 kilometers. Your body is a different instrument than the one that left Saint-Jean. Your mind is quieter. Something has been completed that you cannot yet name. You set your alarm for before dawn, because tomorrow you want to walk the last kilometers in the dark, alone."
+        },
+        "commonExperiences": [
+          {
+            "en": "Insomnia the night before arrival"
+          },
+          {
+            "en": "A quiet, reflective day of easy walking"
+          },
+          {
+            "en": "Trying to memorize the feeling of being a pilgrim"
+          },
+          {
+            "en": "Setting the alarm early to walk the final stage at dawn"
+          }
+        ],
+        "reflection": {
+          "en": "What has this walk made true that was not true before you started?"
+        }
+      }
+    },
+    {
+      "index": 32,
+      "name": {
+        "en": "O Pedrouzo to Santiago de Compostela"
+      },
+      "start": {
+        "name": {
+          "en": "O Pedrouzo"
+        },
+        "coordinates": [
+          -8.358,
+          42.907,
+          290
+        ]
+      },
+      "end": {
+        "name": {
+          "en": "Santiago de Compostela"
+        },
+        "coordinates": [
+          -8.544,
+          42.881,
+          260
+        ]
+      },
+      "distanceKm": 19.4,
+      "elevationGainMeters": 318,
+      "elevationLossMeters": 345,
+      "highPointMeters": 370,
+      "lowPointMeters": 260,
+      "estimatedHours": {
+        "min": 5,
+        "max": 6
+      },
+      "difficulty": "moderate",
+      "terrainTypes": [
+        "forest",
+        "dirt",
+        "urban"
+      ],
+      "terrainNotes": {
+        "en": "Forest paths, airport area, then increasingly urban. Monte do Gozo (Mount of Joy) offers the first view of Santiago's cathedral spires."
+      },
+      "accommodationDensity": "high",
+      "waterSources": 5,
+      "services": {
+        "atm": true,
+        "pharmacy": true,
+        "grocery": true,
+        "restaurant": true
+      },
+      "interior": {
+        "theme": {
+          "en": "Arrival"
+        },
+        "narrative": {
+          "en": "The last day. Monte do Gozo — Mount of Joy — is where medieval pilgrims first saw the cathedral spires and wept. Today the view is partially blocked by buildings, but the emotional weight is the same. You walk through suburbs, past an airport, through parking lots. The Camino does not give you a cinematic ending. It gives you an ordinary one. And then, suddenly, you are standing in the Praza do Obradoiro, looking up at the cathedral, and everything you have walked crashes into this moment. Most pilgrims stand in the plaza and do not know what to do with themselves."
+        },
+        "commonExperiences": [
+          {
+            "en": "Walking in the dark to arrive early"
+          },
+          {
+            "en": "Tears upon seeing the cathedral"
+          },
+          {
+            "en": "Feeling lost — 'Now what?'"
+          },
+          {
+            "en": "The strange emptiness of not having to walk tomorrow"
+          },
+          {
+            "en": "Post-Camino depression beginning within hours of arriving"
+          }
+        ],
+        "reflection": {
+          "en": "You have arrived. But have you arrived at what you were looking for?"
+        }
+      }
+    }
+  ]
+}

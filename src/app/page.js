@@ -1,45 +1,99 @@
 "use client";
 
-import { useState } from "react";
-import { routes, tabs } from "./data/data";
+import { useState, useSyncExternalStore } from "react";
+import { routes } from "./data/routes";
+import { tabs } from "./data/tabs";
+
+import {
+  getProgressSnapshot,
+  getServerSnapshot,
+  subscribe,
+  saveCompletedStages,
+  saveSelectedRoute,
+  getSelectedRouteSnapshot,
+  subscribeSelectedRoute
+} from "./lib/caminoStore";
+import { generateStages, splitSegment } from "./lib/routePlanner";
+
 import styles from "./page.module.css";
 import Header from "./components/Header/Header";
 import RouteOverview from "./components/RouteOverview/RouteOverview";
 import Tabs from "./components/Tabs/Tabs";
 import StagesList from "./components/StagesList/StagesList";
 import RoutesList from "./components/RoutesList/RoutesList";
+import DistanceSelector from "./components/DistanceSelector/DistanceSelector";
 
 export default function Home() {
-  const [selectedRoute, setSelectedRoute] = useState(routes[0].routeName);
-  const [completedStages, setCompletedStages] = useState([]);
   const [activeTab, setActiveTab] = useState("routes");
+  const [targetDistance, setTargetDistance] = useState(25);
+  const savedStages = useSyncExternalStore(
+    subscribe,
+    getProgressSnapshot,
+    getServerSnapshot
+  );
+  const savedRoute = useSyncExternalStore(
+    subscribeSelectedRoute,
+    getSelectedRouteSnapshot,
+    getServerSnapshot
+  );
+  const selectedRoute = savedRoute || routes[0].routeName;
+  
+  const completedStages = Array.isArray(savedStages?.[selectedRoute])
+    ? savedStages[selectedRoute]
+    : [];
 
   function handleSelectRoute(routeName) { 
-    setSelectedRoute(routeName);
+    saveSelectedRoute(routeName);
   }
 
-  function handleToggleStage(stageId) {
-    setCompletedStages(currentStages =>
-      currentStages.includes(stageId)
-        ? currentStages.filter(stage => stage !== stageId)
-        : [...currentStages, stageId]
+  function handleToggleStage(segmentIds) {
+    let updatedStages = [...completedStages];
+
+    const allCompleted = segmentIds.every(id =>
+      updatedStages.includes(id)
     );
+
+    if (allCompleted) {
+      updatedStages = updatedStages.filter(
+        id => !segmentIds.includes(id)
+      );
+    } else {
+      for (const id of segmentIds) {
+        if (!updatedStages.includes(id)) {
+          updatedStages.push(id);
+        }
+      }
+    }
+
+    saveCompletedStages(updatedStages, selectedRoute);
   }
 
   const selectedRouteData = routes.find(route => route.routeName === selectedRoute);
-  const selectedStages = selectedRouteData?.stages ?? [];
-  const averageDistance = selectedRouteData && selectedRouteData.days > 0
-    ? selectedRouteData.distance / selectedRouteData.days
+  const selectedSegments = selectedRouteData?.segments ?? [];
+  const progressSegments = selectedSegments.flatMap(segment => {
+    return splitSegment(segment);
+  });
+  const generatedStages = generateStages(
+    selectedSegments,
+    targetDistance
+  );
+  const averageDistance = generatedStages.length > 0
+    ? generatedStages.reduce((sum, stage) => sum + stage.distance, 0)
+      / generatedStages.length
     : 0;
+
   const roundedAverageDistance = Math.round(averageDistance * 10) / 10;
-  const completedStagesCount = selectedStages.filter(stage =>
-    completedStages.includes(stage.id)
+  const completedStagesCount = generatedStages.filter(stage =>
+    stage.segmentIds.every(id => completedStages.includes(id))
   ).length;
-  const completedDistance = selectedStages.reduce((accumulator, stage) => {
-    return completedStages.includes(stage.id)
-      ? accumulator + stage.distance 
-      : accumulator
-  }, 0);
+
+  const completedDistance = Math.round(
+    progressSegments.reduce((total, segment) => {
+      return completedStages.includes(segment.id)
+        ? total + segment.distance
+        : total;
+    }, 0) * 10
+  ) / 10;
   const progressPercentage = selectedRouteData?.distance > 0
     ? Math.round(completedDistance / selectedRouteData.distance * 1000) / 10
     : 0;
@@ -50,8 +104,17 @@ export default function Home() {
       
       <main className={styles.page}>
         {selectedRouteData ?
-          (
-            <RouteOverview route={selectedRouteData} averageDistance={roundedAverageDistance} />
+          (<>
+            <RouteOverview 
+              route={selectedRouteData} 
+              averageDistance={roundedAverageDistance} 
+              totalDays={generatedStages.length}
+            />
+            <DistanceSelector
+              targetDistance={targetDistance}
+              onDistanceChange={setTargetDistance}
+            />
+          </>
           )
           : (
             <p>Choose your route</p>
@@ -63,6 +126,7 @@ export default function Home() {
           activeTab={activeTab}
           onTabChange={setActiveTab}
           selectedRoute={selectedRouteData}
+          totalDays={generatedStages.length}
         />
         <div className={styles.tabContent}>
           {activeTab === "routes" && (
@@ -76,12 +140,12 @@ export default function Home() {
           {activeTab === "stages" && (
             selectedRouteData ? (
               <StagesList
-                stages={selectedStages}
+                stages={generatedStages}
                 progressPercentage={progressPercentage}
                 completedDistance={completedDistance}
                 totalDistance={selectedRouteData.distance}
                 completedStagesCount={completedStagesCount}
-                totalDays={selectedRouteData.days}
+                totalDays={generatedStages.length}
                 completedStages={completedStages}
                 onToggleStage={handleToggleStage}
               />

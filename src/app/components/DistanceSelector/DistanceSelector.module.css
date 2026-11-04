@@ -1,0 +1,32 @@
+.selector {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+.selector label {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.controls input {
+    flex: 1;
+    accent-color: var(--primary);
+    cursor: pointer;
+}
+
+.controls span {
+    min-width: 65px;
+    color: var(--accent);
+    font-weight: 700;
+}

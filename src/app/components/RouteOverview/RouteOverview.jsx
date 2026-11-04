@@ -1,6 +1,6 @@
 import styles from "./RouteOverview.module.css";
 
-export default function RouteOverview({ route, averageDistance }) { 
+export default function RouteOverview({ route, averageDistance, totalDays }) { 
     return (
         <div className={styles.selectedRouteInfo}>
             <div className={styles.routeDescription}>
@@ -23,7 +23,7 @@ export default function RouteOverview({ route, averageDistance }) {
 
                 <div className={styles.overviewItem}>
                     <span>В пути</span>
-                    <strong>{route.days} дней</strong>
+                    <strong>{totalDays} дней</strong>
                 </div>
 
                 <div className={styles.overviewItem}>

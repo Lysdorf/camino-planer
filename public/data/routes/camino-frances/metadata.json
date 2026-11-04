@@ -1,0 +1,12 @@
+{
+  "routeId": "camino-frances",
+  "source": "Open Pilgrimages",
+  "sourceVersion": "v1.12.0",
+  "originalSource": "OpenStreetMap",
+  "license": "ODbL",
+  "attribution": "© OpenStreetMap contributors",
+  "importedAt": "2026-11-04T14:02:22.631Z",
+  "stageCount": 33,
+  "waypointCount": 2957,
+  "distanceKm": 763.7
+}
