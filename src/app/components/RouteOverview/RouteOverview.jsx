@@ -1,6 +1,6 @@
 import styles from "./RouteOverview.module.css";
 
-export default function RouteOverview({ route, averageDistance, totalDays }) { 
+export default function RouteOverview({ route, averageDistance, totalDays, totalBudget }) { 
     return (
         <div className={styles.selectedRouteInfo}>
             <div className={styles.routeDescription}>
@@ -33,7 +33,9 @@ export default function RouteOverview({ route, averageDistance, totalDays }) {
 
                 <div className={styles.overviewItem}>
                     <span>Общий бюджет</span>
-                    <strong className={styles.overviewBudget}>1 345 €</strong>
+                    <strong className={styles.overviewBudget}>
+                        {Math.round(totalBudget).toLocaleString("de-DE")} €
+                    </strong>
                 </div>
             </div>
         </div>

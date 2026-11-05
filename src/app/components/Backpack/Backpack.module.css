@@ -1,0 +1,181 @@
+
+.backpack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.category {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.category h3 {
+  margin: 0 0 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+.item input {
+  width: 18px;
+  height: 18px;
+  accent-color: #315b46;
+}
+
+.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.addForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.addForm input,
+.addForm select,
+.addForm button {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.addForm input {
+  flex: 1;
+  min-width: 180px;
+}
+
+.addForm button {
+  background: #315b46;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+}
+
+.deleteButton {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: #b45b50;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0.65;
+  transition: opacity 0.2s;
+  margin-left: 0;
+
+}
+
+.deleteButton:hover {
+  opacity: 1;
+}
+
+.editButton {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: #315b46;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.item input[type="text"] {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.item button:not(.editButton):not(.deleteButton) {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  background: #315b46;
+  color: white;
+  cursor: pointer;
+}
+
+.itemDetails {
+  color: #89958d;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+
+.statCard span {
+  color: #89958d;
+  font-size: 13px;
+}
+
+.statCard strong {
+  color: #244d3d;
+  font-size: 22px;
+}
+
+.progressBar {
+  height: 10px;
+  overflow: hidden;
+  background: #e5e5df;
+  border-radius: 10px;
+}
+
+.progressFill {
+  height: 100%;
+  background: #315b46;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.editInput {
+  width: 110px;
+  min-width: 90px;
+  padding: 8px 10px;
+  border: 1px solid #d6dcd7;
+  border-radius: 8px;
+  background: #fff;
+  color: #244d3d;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.editInput:focus {
+  outline: none;
+  border-color: #315b46;
+}
+
+@media (max-width: 700px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

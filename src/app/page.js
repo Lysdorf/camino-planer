@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useSyncExternalStore } from "react";
+import { useState, useEffect, useMemo, useSyncExternalStore } from "react";
 import { routes } from "./data/routes";
 import { tabs } from "./data/tabs";
 
@@ -11,7 +11,12 @@ import {
   saveCompletedStages,
   saveSelectedRoute,
   getSelectedRouteSnapshot,
-  subscribeSelectedRoute
+  subscribeSelectedRoute,
+  getBudgetSnapshot,
+  getBudgetServerSnapshot,
+  saveBudgetSettings,
+  subscribeBudget,
+  resetBudgetSettings
 } from "./lib/caminoStore";
 import { generateStages, splitSegment } from "./lib/routePlanner";
 
@@ -22,10 +27,28 @@ import Tabs from "./components/Tabs/Tabs";
 import StagesList from "./components/StagesList/StagesList";
 import RoutesList from "./components/RoutesList/RoutesList";
 import DistanceSelector from "./components/DistanceSelector/DistanceSelector";
+import BudgetCalculator from "./components/BudgetCalculator/BudgetCalculator";
+import Backpack from "./components/Backpack/Backpack";
+
+const EMPTY_SEGMENTS = [];
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("routes");
   const [targetDistance, setTargetDistance] = useState(25);
+  const [calculationDistance, setCalculationDistance] = useState(25);
+  const budgetSettings = useSyncExternalStore(
+    subscribeBudget,
+    getBudgetSnapshot,
+    getBudgetServerSnapshot
+  );
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCalculationDistance(targetDistance);
+    }, 180);
+
+    return () => clearTimeout(timer);
+  }, [targetDistance]);
   const savedStages = useSyncExternalStore(
     subscribe,
     getProgressSnapshot,
@@ -68,21 +91,59 @@ export default function Home() {
     saveCompletedStages(updatedStages, selectedRoute);
   }
 
+  function handleBudgetChange(key, value) {
+    saveBudgetSettings({
+      ...budgetSettings,
+      [key]: value
+    });
+  }
+
   const selectedRouteData = routes.find(route => route.routeName === selectedRoute);
-  const selectedSegments = selectedRouteData?.segments ?? [];
-  const progressSegments = selectedSegments.flatMap(segment => {
-    return splitSegment(segment);
-  });
-  const generatedStages = generateStages(
-    selectedSegments,
-    targetDistance
-  );
-  const averageDistance = generatedStages.length > 0
-    ? generatedStages.reduce((sum, stage) => sum + stage.distance, 0)
-      / generatedStages.length
-    : 0;
+  const selectedSegments = selectedRouteData?.segments ?? EMPTY_SEGMENTS;
+  const progressSegments = useMemo(() => {
+    return selectedSegments.flatMap(segment => splitSegment(segment));
+  }, [selectedSegments]);
+
+  const generatedStages = useMemo(() => {
+    return generateStages(selectedSegments, calculationDistance);
+  }, [selectedSegments, calculationDistance]);
+  const averageDistance = useMemo(() => {
+    return generatedStages.length > 0
+      ? generatedStages.reduce((sum, stage) => sum + stage.distance, 0)
+        / generatedStages.length
+      : 0;
+  }, [generatedStages]);
 
   const roundedAverageDistance = Math.round(averageDistance * 10) / 10;
+
+  const budget = useMemo(() => {
+    const days = generatedStages.length;
+
+    const nights = budgetSettings.nights ??
+      Math.max(0, days - 1);
+
+    const accommodation = budgetSettings.accommodation * nights;
+    const food = budgetSettings.food * days;
+    const extras = budgetSettings.extras * days;
+
+    const subtotal = accommodation + food + extras;
+    const reserve = subtotal * budgetSettings.reservePercent / 100;
+    const total = subtotal + reserve;
+
+    return {
+      nights,
+      accommodation,
+      food,
+      extras,
+      reserve,
+      total,
+      perDay: days > 0 ? total / days : 0,
+      perKm: selectedRouteData?.distance > 0
+        ? total / selectedRouteData.distance
+        : 0
+    };
+  }, [budgetSettings, generatedStages.length, selectedRouteData]);
+
   const completedStagesCount = generatedStages.filter(stage =>
     stage.segmentIds.every(id => completedStages.includes(id))
   ).length;
@@ -109,6 +170,7 @@ export default function Home() {
               route={selectedRouteData} 
               averageDistance={roundedAverageDistance} 
               totalDays={generatedStages.length}
+              totalBudget={budget.total}
             />
             <DistanceSelector
               targetDistance={targetDistance}
@@ -137,6 +199,16 @@ export default function Home() {
             />
           )}
 
+          {activeTab === "budget" && (
+            <BudgetCalculator
+              days={generatedStages.length}
+              settings={budgetSettings}
+              budget={budget}
+              onSettingsChange={handleBudgetChange}
+              onReset={resetBudgetSettings}
+            />
+          )}
+
           {activeTab === "stages" && (
             selectedRouteData ? (
               <StagesList
@@ -152,6 +224,10 @@ export default function Home() {
             ) : (
               <p>Выбери маршрут, чтобы увидеть этапы</p>
             )
+          )}
+
+          {activeTab === "backpack" && (
+            <Backpack />
           )}
         </div>
         
